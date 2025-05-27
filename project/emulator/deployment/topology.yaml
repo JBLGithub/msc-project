@@ -1,0 +1,135 @@
+routers: 4
+nodes: 2
+
+links:
+  - network: [node1, router1]
+  - network: [router1, router2]
+  - network: [router2, router3]
+  - network: [router3, router4]
+  - network: [node2, router4]
+
+  # TOPOLOGY 1 (5 routers)
+  # - network: [node1, router3]
+  # - network: [node2, router3]
+
+  # - network: [router1, router3]
+  # - network: [router2, router3]
+  # - network: [router4, router3]
+  # - network: [router5, router3]
+  
+  # - network: [router1, node3, node4]
+  # - network: [router2, node5, node6]
+  # - network: [router3, node7, node8]
+  # - network: [router4, node9, node10]
+  # - network: [router5, node11, node12]
+
+  # TOPOLOGY 2 (5 routers)
+  # - network: [node1, router1]
+  # - network: [node2, router3]
+
+  # - network: [router1, router2]
+  # - network: [router2, router3]
+  # - network: [router3, router4]
+  # - network: [router4, router5]
+  # - network: [router5, router1]
+
+  # - network: [router1, node3, node4]
+  # - network: [router2, node5, node6]
+  # - network: [router3, node7, node8]
+  # - network: [router4, node9, node10]
+  # - network: [router5, node11, node12]
+
+  # TOPOLOGY 3 (4 routers)
+  # - network: [node1, router2]
+  # - network: [node2, router4]
+
+  # - network: [router1, router2]
+  # - network: [router2, router3]
+  # - network: [router3, router4]
+  # - network: [router4, router1]
+
+  # - network: [router1, node3, node4, node5]
+  # - network: [router2, node6, node7]
+  # - network: [router3, node8, node9, node10]
+  # - network: [router4, node11, node12]
+
+  # TOPOLOGY 4 (4 routers)
+  # - network: [node1, router1]
+  # - network: [node2, router4]
+
+  # - network: [router1, router2]
+  # - network: [router2, router3]
+  # - network: [router3, router4]
+
+  # - network: [router1, node3, node4, node5, node6]
+  # - network: [router2, node7, node8]
+  # - network: [router3, node9, node10]
+  # - network: [router4, node11, node12]
+
+  # TOPOLOGY 5 (3 routers)
+  # - network: [node1, router1]
+  # - network: [node2, router3]
+
+  # - network: [router1, router2]
+  # - network: [router2, router3]
+
+  # - network: [router1, node3, node4, node5, node6]
+  # - network: [router2, node7, node8]
+  # - network: [router3, node9, node10, node11, node12]
+
+  # TOPOLOGY 6 (4 routers)
+  # - network: [node1, router2]
+  # - network: [node2, router4]
+
+  # - network: [router1, router2]
+  # - network: [router2, router3]
+  # - network: [router2, router4]
+
+  # - network: [router1, node3, node4]
+  # - network: [router2, node5, node6, node7, node8]
+  # - network: [router3, node9, node10]
+  # - network: [router4, node11, node12]
+
+  # TOPOLOGY 7 (5 routers)
+  # - network: [node1, router2]
+  # - network: [node2, router4]
+
+  # - network: [router1, router2]
+  # - network: [router2, router3]
+  # - network: [router3, router4]
+  # - network: [router4, router5]
+
+  # - network: [router1, node3, node4]
+  # - network: [router2, node5, node6]
+  # - network: [router3, node7, node8]
+  # - network: [router4, node9, node10]
+  # - network: [router5, node11, node12]
+
+  # TOPOLOGY 8 (3 routers)
+  # - network: [node1, router1]
+  # - network: [node2, router3]
+
+  # - network: [router1, router2]
+  # - network: [router2, router3]
+
+  # - network: [router1, node3, node4, node5]
+  # - network: [router2, node6, node7, node8, node9]
+  # - network: [router3, node10, node11, node12]
+
+  # TOPOLOGY Multi-Homed
+  # - network: [node1, router2]
+  # - network: [node2, router5]
+  # - network: [node2, router6]
+
+  # - network: [router1, router3]
+  # - network: [router2, router3]
+  # - network: [router3, router4]
+  # - network: [router5, router4]
+  # - network: [router6, router4]
+
+  # - network: [router1, node3, node4]
+  # - network: [router2, node4, node5]
+  # - network: [router3, node6, node7]
+  # - network: [router4, node8, node9, node10]
+  # - network: [router5, node11, node10]
+  # - network: [router6, node12, node10]

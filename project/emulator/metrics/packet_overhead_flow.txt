@@ -1,0 +1,913 @@
+open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+[2J[1;1H
+INFO;0x0000000000000001;1735766124010266;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::1
+INFO;0x0000000000000001;1735766124010354;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000001;1735766124010383;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000001;1735766124010443;ILNP layer running.
+INFO;0x0000000000000002;1735766124157326;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::1
+INFO;0x0000000000000002;1735766124157359;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000002;1735766124157369;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000002;1735766124157385;ILNP layer running.
+INFO;0x0000000000000001;1735766280325928;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000001;1735766280326047;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000001;1735766280325981;PCB;0;{"start_time":1735766124000953,"ready_time":1735766124010484,"finish_time":1735766280325968,"data_request_rx":0,"data_request_tx":26550,"data_request_forward_rx":0,"data_request_forward_tx":0,"nd_solicitation_jcmp_rx":0,"nd_solicitation_jcmp_tx":30,"nd_advertisement_jcmp_rx":30,"nd_advertisement_jcmp_tx":0,"dns_fqdn_query_jcmp_rx":0,"dns_fqdn_query_jcmp_tx":30,"dns_fqdn_response_jcmp_rx":30,"dns_fqdn_response_jcmp_tx":0,"dns_ilv_query_jcmp_rx":0,"dns_ilv_query_jcmp_tx":0,"dns_ilv_response_jcmp_rx":0,"dns_ilv_response_jcmp_tx":0,"router_request_jcmp_rx":0,"router_request_jcmp_tx":0,"router_response_jcmp_rx":0,"router_response_jcmp_tx":0}
+INFO;0x0000000000000001;1735766280331941;close_underlay_socket(): successfully left network: ff02:0:0:5d73::1
+INFO;0x0000000000000001;1735766280332031;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000001;1735766280332067;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000002;1735766280901148;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000002;1735766280901183;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000002;1735766280901283;PCB;0;{"start_time":1735766124154054,"ready_time":1735766124157394,"finish_time":1735766280901278,"data_request_rx":25768,"data_request_tx":0,"data_request_forward_rx":0,"data_request_forward_tx":0,"nd_solicitation_jcmp_rx":30,"nd_solicitation_jcmp_tx":0,"nd_advertisement_jcmp_rx":0,"nd_advertisement_jcmp_tx":30,"dns_fqdn_query_jcmp_rx":30,"dns_fqdn_query_jcmp_tx":0,"dns_fqdn_response_jcmp_rx":0,"dns_fqdn_response_jcmp_tx":30,"dns_ilv_query_jcmp_rx":0,"dns_ilv_query_jcmp_tx":0,"dns_ilv_response_jcmp_rx":0,"dns_ilv_response_jcmp_tx":0,"router_request_jcmp_rx":0,"router_request_jcmp_tx":0,"router_response_jcmp_rx":0,"router_response_jcmp_tx":0}
+INFO;0x0000000000000002;1735766280902573;close_underlay_socket(): successfully left network: ff02:0:0:5d73::1
+INFO;0x0000000000000002;1735766280902595;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000002;1735766280902603;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5d73:5d73
+^C** - ctrl+c received, exiting
+open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+[2J[1;1H
+INFO;0x0000000000000001;1735766672861490;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::2
+INFO;0x0000000000000001;1735766672861521;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::1
+INFO;0x0000000000000001;1735766672861528;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000001;1735766672861533;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000001;1735766672861547;ILNP layer running.
+INFO;0x0000000000000002;1735766673024386;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::1
+INFO;0x0000000000000002;1735766673024416;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000002;1735766673024428;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000002;1735766673024449;ILNP layer running.
+INFO;0x0000000000000003;1735766673043408;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::2
+INFO;0x0000000000000003;1735766673043439;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000003;1735766673043450;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000003;1735766673043470;ILNP layer running.
+INFO;0x0000000000000001;1735766827193951;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000001;1735766827194001;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000001;1735766827194234;PCB;1;{"start_time":1735766672859240,"ready_time":1735766672861553,"finish_time":1735766827194203,"data_request_rx":0,"data_request_tx":0,"data_request_forward_rx":24974,"data_request_forward_tx":24974,"nd_solicitation_jcmp_rx":30,"nd_solicitation_jcmp_tx":30,"nd_advertisement_jcmp_rx":30,"nd_advertisement_jcmp_tx":30,"dns_fqdn_query_jcmp_rx":30,"dns_fqdn_query_jcmp_tx":0,"dns_fqdn_response_jcmp_rx":30,"dns_fqdn_response_jcmp_tx":0,"dns_ilv_query_jcmp_rx":0,"dns_ilv_query_jcmp_tx":0,"dns_ilv_response_jcmp_rx":0,"dns_ilv_response_jcmp_tx":0,"router_request_jcmp_rx":30,"router_request_jcmp_tx":0,"router_response_jcmp_rx":0,"router_response_jcmp_tx":30}
+INFO;0x0000000000000001;1735766827199950;close_underlay_socket(): successfully left network: ff02:0:0:5d73::2
+INFO;0x0000000000000001;1735766827200048;close_underlay_socket(): successfully left network: ff02:0:0:5d73::1
+INFO;0x0000000000000001;1735766827200149;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000001;1735766827200278;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000002;1735766827670386;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000002;1735766827670388;PCB;1;{"start_time":1735766673021548,"ready_time":1735766673024457,"finish_time":1735766827670382,"data_request_rx":0,"data_request_tx":26550,"data_request_forward_rx":0,"data_request_forward_tx":0,"nd_solicitation_jcmp_rx":0,"nd_solicitation_jcmp_tx":30,"nd_advertisement_jcmp_rx":30,"nd_advertisement_jcmp_tx":0,"dns_fqdn_query_jcmp_rx":0,"dns_fqdn_query_jcmp_tx":30,"dns_fqdn_response_jcmp_rx":30,"dns_fqdn_response_jcmp_tx":0,"dns_ilv_query_jcmp_rx":0,"dns_ilv_query_jcmp_tx":0,"dns_ilv_response_jcmp_rx":0,"dns_ilv_response_jcmp_tx":0,"router_request_jcmp_rx":0,"router_request_jcmp_tx":30,"router_response_jcmp_rx":30,"router_response_jcmp_tx":0}
+INFO;0x0000000000000002;1735766827671757;close_underlay_socket(): successfully left network: ff02:0:0:5d73::1
+INFO;0x0000000000000002;1735766827671778;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000002;1735766827671789;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000003;1735766828206461;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000003;1735766828206452;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000003;1735766828206570;PCB;1;{"start_time":1735766673040638,"ready_time":1735766673043480,"finish_time":1735766828206566,"data_request_rx":23064,"data_request_tx":0,"data_request_forward_rx":0,"data_request_forward_tx":0,"nd_solicitation_jcmp_rx":30,"nd_solicitation_jcmp_tx":0,"nd_advertisement_jcmp_rx":0,"nd_advertisement_jcmp_tx":30,"dns_fqdn_query_jcmp_rx":30,"dns_fqdn_query_jcmp_tx":0,"dns_fqdn_response_jcmp_rx":0,"dns_fqdn_response_jcmp_tx":30,"dns_ilv_query_jcmp_rx":0,"dns_ilv_query_jcmp_tx":0,"dns_ilv_response_jcmp_rx":0,"dns_ilv_response_jcmp_tx":0,"router_request_jcmp_rx":0,"router_request_jcmp_tx":0,"router_response_jcmp_rx":0,"router_response_jcmp_tx":0}
+INFO;0x0000000000000003;1735766828207910;close_underlay_socket(): successfully left network: ff02:0:0:5d73::2
+INFO;0x0000000000000003;1735766828207935;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000003;1735766828207943;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5d73:5d73
+^C** - ctrl+c received, exiting
+open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+[2J[1;1H
+INFO;0x0000000000000001;1735767192019228;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::2
+INFO;0x0000000000000001;1735767192019264;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::1
+INFO;0x0000000000000001;1735767192019272;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000001;1735767192019277;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000001;1735767192019520;ILNP layer running.
+INFO;0x0000000000000002;1735767192078669;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::2
+INFO;0x0000000000000002;1735767192078695;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::3
+INFO;0x0000000000000002;1735767192078705;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000002;1735767192078713;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000002;1735767192078729;ILNP layer running.
+INFO;0x0000000000000003;1735767192119697;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::1
+INFO;0x0000000000000003;1735767192119758;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000003;1735767192119783;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000003;1735767192119821;ILNP layer running.
+INFO;0x0000000000000004;1735767192140143;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::3
+INFO;0x0000000000000004;1735767192140168;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000004;1735767192140175;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000004;1735767192140187;ILNP layer running.
+INFO;0x0000000000000001;1735767348278891;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000001;1735767348278969;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000001;1735767348279338;PCB;2;{"start_time":1735767192016581,"ready_time":1735767192019568,"finish_time":1735767348279319,"data_request_rx":0,"data_request_tx":0,"data_request_forward_rx":24734,"data_request_forward_tx":24734,"nd_solicitation_jcmp_rx":30,"nd_solicitation_jcmp_tx":30,"nd_advertisement_jcmp_rx":30,"nd_advertisement_jcmp_tx":30,"dns_fqdn_query_jcmp_rx":30,"dns_fqdn_query_jcmp_tx":0,"dns_fqdn_response_jcmp_rx":30,"dns_fqdn_response_jcmp_tx":0,"dns_ilv_query_jcmp_rx":0,"dns_ilv_query_jcmp_tx":0,"dns_ilv_response_jcmp_rx":0,"dns_ilv_response_jcmp_tx":0,"router_request_jcmp_rx":30,"router_request_jcmp_tx":30,"router_response_jcmp_rx":30,"router_response_jcmp_tx":30}
+INFO;0x0000000000000001;1735767348285032;close_underlay_socket(): successfully left network: ff02:0:0:5d73::1
+INFO;0x0000000000000001;1735767348285165;close_underlay_socket(): successfully left network: ff02:0:0:5d73::2
+INFO;0x0000000000000001;1735767348285298;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000001;1735767348285345;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000002;1735767348818308;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000002;1735767348818321;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000002;1735767348818436;PCB;2;{"start_time":1735767192076408,"ready_time":1735767192078734,"finish_time":1735767348818431,"data_request_rx":0,"data_request_tx":0,"data_request_forward_rx":24628,"data_request_forward_tx":24628,"nd_solicitation_jcmp_rx":30,"nd_solicitation_jcmp_tx":30,"nd_advertisement_jcmp_rx":30,"nd_advertisement_jcmp_tx":30,"dns_fqdn_query_jcmp_rx":30,"dns_fqdn_query_jcmp_tx":0,"dns_fqdn_response_jcmp_rx":30,"dns_fqdn_response_jcmp_tx":0,"dns_ilv_query_jcmp_rx":0,"dns_ilv_query_jcmp_tx":0,"dns_ilv_response_jcmp_rx":0,"dns_ilv_response_jcmp_tx":0,"router_request_jcmp_rx":30,"router_request_jcmp_tx":0,"router_response_jcmp_rx":0,"router_response_jcmp_tx":30}
+INFO;0x0000000000000002;1735767348819895;close_underlay_socket(): successfully left network: ff02:0:0:5d73::2
+INFO;0x0000000000000002;1735767348819920;close_underlay_socket(): successfully left network: ff02:0:0:5d73::3
+INFO;0x0000000000000002;1735767348819934;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000002;1735767348819944;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000003;1735767349342675;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000003;1735767349342715;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000003;1735767349342720;PCB;2;{"start_time":1735767192117518,"ready_time":1735767192119845,"finish_time":1735767349342715,"data_request_rx":0,"data_request_tx":26550,"data_request_forward_rx":0,"data_request_forward_tx":0,"nd_solicitation_jcmp_rx":0,"nd_solicitation_jcmp_tx":30,"nd_advertisement_jcmp_rx":30,"nd_advertisement_jcmp_tx":0,"dns_fqdn_query_jcmp_rx":0,"dns_fqdn_query_jcmp_tx":30,"dns_fqdn_response_jcmp_rx":30,"dns_fqdn_response_jcmp_tx":0,"dns_ilv_query_jcmp_rx":0,"dns_ilv_query_jcmp_tx":0,"dns_ilv_response_jcmp_rx":0,"dns_ilv_response_jcmp_tx":0,"router_request_jcmp_rx":0,"router_request_jcmp_tx":30,"router_response_jcmp_rx":30,"router_response_jcmp_tx":0}
+INFO;0x0000000000000003;1735767349343999;close_underlay_socket(): successfully left network: ff02:0:0:5d73::1
+INFO;0x0000000000000003;1735767349344021;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000003;1735767349344029;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000004;1735767349869170;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000004;1735767349869186;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000004;1735767349869322;PCB;2;{"start_time":1735767192138078,"ready_time":1735767192140194,"finish_time":1735767349869318,"data_request_rx":22816,"data_request_tx":0,"data_request_forward_rx":0,"data_request_forward_tx":0,"nd_solicitation_jcmp_rx":30,"nd_solicitation_jcmp_tx":0,"nd_advertisement_jcmp_rx":0,"nd_advertisement_jcmp_tx":30,"dns_fqdn_query_jcmp_rx":30,"dns_fqdn_query_jcmp_tx":0,"dns_fqdn_response_jcmp_rx":0,"dns_fqdn_response_jcmp_tx":30,"dns_ilv_query_jcmp_rx":0,"dns_ilv_query_jcmp_tx":0,"dns_ilv_response_jcmp_rx":0,"dns_ilv_response_jcmp_tx":0,"router_request_jcmp_rx":0,"router_request_jcmp_tx":0,"router_response_jcmp_rx":0,"router_response_jcmp_tx":0}
+INFO;0x0000000000000004;1735767349870722;close_underlay_socket(): successfully left network: ff02:0:0:5d73::3
+INFO;0x0000000000000004;1735767349870742;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000004;1735767349870754;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5d73:5d73
+^C** - ctrl+c received, exiting
+open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+[2J[1;1H
+INFO;0x0000000000000002;1735767543531799;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::2
+INFO;0x0000000000000002;1735767543531871;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::3
+INFO;0x0000000000000002;1735767543531879;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000002;1735767543531883;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000002;1735767543531897;ILNP layer running.
+INFO;0x0000000000000004;1735767543535878;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::1
+INFO;0x0000000000000004;1735767543535902;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000004;1735767543535909;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000004;1735767543535922;ILNP layer running.
+INFO;0x0000000000000001;1735767543550874;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::1
+INFO;0x0000000000000001;1735767543550900;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::2
+INFO;0x0000000000000001;1735767543550906;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000001;1735767543550911;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000001;1735767543550924;ILNP layer running.
+INFO;0x0000000000000005;1735767543558606;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::4
+INFO;0x0000000000000005;1735767543558635;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000005;1735767543558643;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000005;1735767543558657;ILNP layer running.
+INFO;0x0000000000000003;1735767543753306;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::3
+INFO;0x0000000000000003;1735767543753352;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::4
+INFO;0x0000000000000003;1735767543753368;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000003;1735767543753379;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000003;1735767543753402;ILNP layer running.
+INFO;0x0000000000000001;1735767699473477;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000001;1735767699473487;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000001;1735767699473682;PCB;3;{"start_time":1735767543548569,"ready_time":1735767543550930,"finish_time":1735767699473676,"data_request_rx":0,"data_request_tx":0,"data_request_forward_rx":25503,"data_request_forward_tx":25503,"nd_solicitation_jcmp_rx":30,"nd_solicitation_jcmp_tx":30,"nd_advertisement_jcmp_rx":30,"nd_advertisement_jcmp_tx":30,"dns_fqdn_query_jcmp_rx":30,"dns_fqdn_query_jcmp_tx":0,"dns_fqdn_response_jcmp_rx":30,"dns_fqdn_response_jcmp_tx":0,"dns_ilv_query_jcmp_rx":0,"dns_ilv_query_jcmp_tx":0,"dns_ilv_response_jcmp_rx":0,"dns_ilv_response_jcmp_tx":0,"router_request_jcmp_rx":30,"router_request_jcmp_tx":30,"router_response_jcmp_rx":30,"router_response_jcmp_tx":30}
+INFO;0x0000000000000001;1735767699475551;close_underlay_socket(): successfully left network: ff02:0:0:5d73::2
+INFO;0x0000000000000001;1735767699475611;close_underlay_socket(): successfully left network: ff02:0:0:5d73::1
+INFO;0x0000000000000001;1735767699475635;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000001;1735767699475652;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000002;1735767700027973;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000002;1735767700028027;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000002;1735767700028108;PCB;3;{"start_time":1735767543529174,"ready_time":1735767543531902,"finish_time":1735767700028103,"data_request_rx":0,"data_request_tx":0,"data_request_forward_rx":25040,"data_request_forward_tx":25040,"nd_solicitation_jcmp_rx":30,"nd_solicitation_jcmp_tx":30,"nd_advertisement_jcmp_rx":30,"nd_advertisement_jcmp_tx":30,"dns_fqdn_query_jcmp_rx":30,"dns_fqdn_query_jcmp_tx":0,"dns_fqdn_response_jcmp_rx":30,"dns_fqdn_response_jcmp_tx":0,"dns_ilv_query_jcmp_rx":0,"dns_ilv_query_jcmp_tx":0,"dns_ilv_response_jcmp_rx":0,"dns_ilv_response_jcmp_tx":0,"router_request_jcmp_rx":30,"router_request_jcmp_tx":30,"router_response_jcmp_rx":30,"router_response_jcmp_tx":30}
+INFO;0x0000000000000002;1735767700029389;close_underlay_socket(): successfully left network: ff02:0:0:5d73::2
+INFO;0x0000000000000002;1735767700029422;close_underlay_socket(): successfully left network: ff02:0:0:5d73::3
+INFO;0x0000000000000002;1735767700029434;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000002;1735767700029442;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000003;1735767700548167;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000003;1735767700548160;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000003;1735767700548322;PCB;3;{"start_time":1735767543749441,"ready_time":1735767543753422,"finish_time":1735767700548318,"data_request_rx":0,"data_request_tx":0,"data_request_forward_rx":23266,"data_request_forward_tx":23266,"nd_solicitation_jcmp_rx":30,"nd_solicitation_jcmp_tx":33,"nd_advertisement_jcmp_rx":33,"nd_advertisement_jcmp_tx":30,"dns_fqdn_query_jcmp_rx":30,"dns_fqdn_query_jcmp_tx":0,"dns_fqdn_response_jcmp_rx":30,"dns_fqdn_response_jcmp_tx":0,"dns_ilv_query_jcmp_rx":0,"dns_ilv_query_jcmp_tx":0,"dns_ilv_response_jcmp_rx":0,"dns_ilv_response_jcmp_tx":0,"router_request_jcmp_rx":30,"router_request_jcmp_tx":0,"router_response_jcmp_rx":0,"router_response_jcmp_tx":30}
+INFO;0x0000000000000003;1735767700549688;close_underlay_socket(): successfully left network: ff02:0:0:5d73::3
+INFO;0x0000000000000003;1735767700549717;close_underlay_socket(): successfully left network: ff02:0:0:5d73::4
+INFO;0x0000000000000003;1735767700549742;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000003;1735767700549753;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000004;1735767701112157;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000004;1735767701112191;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000004;1735767701112197;PCB;3;{"start_time":1735767543533566,"ready_time":1735767543535928,"finish_time":1735767701112194,"data_request_rx":0,"data_request_tx":26550,"data_request_forward_rx":0,"data_request_forward_tx":0,"nd_solicitation_jcmp_rx":0,"nd_solicitation_jcmp_tx":30,"nd_advertisement_jcmp_rx":30,"nd_advertisement_jcmp_tx":0,"dns_fqdn_query_jcmp_rx":0,"dns_fqdn_query_jcmp_tx":30,"dns_fqdn_response_jcmp_rx":30,"dns_fqdn_response_jcmp_tx":0,"dns_ilv_query_jcmp_rx":0,"dns_ilv_query_jcmp_tx":0,"dns_ilv_response_jcmp_rx":0,"dns_ilv_response_jcmp_tx":0,"router_request_jcmp_rx":0,"router_request_jcmp_tx":30,"router_response_jcmp_rx":30,"router_response_jcmp_tx":0}
+INFO;0x0000000000000004;1735767701113513;close_underlay_socket(): successfully left network: ff02:0:0:5d73::1
+INFO;0x0000000000000004;1735767701113538;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000004;1735767701113561;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000005;1735767701620708;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000005;1735767701620759;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000005;1735767701620857;PCB;3;{"start_time":1735767543556440,"ready_time":1735767543558664,"finish_time":1735767701620853,"data_request_rx":21298,"data_request_tx":0,"data_request_forward_rx":0,"data_request_forward_tx":0,"nd_solicitation_jcmp_rx":33,"nd_solicitation_jcmp_tx":0,"nd_advertisement_jcmp_rx":0,"nd_advertisement_jcmp_tx":33,"dns_fqdn_query_jcmp_rx":30,"dns_fqdn_query_jcmp_tx":0,"dns_fqdn_response_jcmp_rx":0,"dns_fqdn_response_jcmp_tx":30,"dns_ilv_query_jcmp_rx":0,"dns_ilv_query_jcmp_tx":0,"dns_ilv_response_jcmp_rx":0,"dns_ilv_response_jcmp_tx":0,"router_request_jcmp_rx":0,"router_request_jcmp_tx":0,"router_response_jcmp_rx":0,"router_response_jcmp_tx":0}
+INFO;0x0000000000000005;1735767701622250;close_underlay_socket(): successfully left network: ff02:0:0:5d73::4
+INFO;0x0000000000000005;1735767701622271;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000005;1735767701622280;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5d73:5d73
+^C** - ctrl+c received, exiting
+open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+[2J[1;1H
+INFO;0x0000000000000002;1735767860666421;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::2
+INFO;0x0000000000000002;1735767860666496;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::3
+INFO;0x0000000000000002;1735767860666517;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000002;1735767860666533;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000002;1735767860666571;ILNP layer running.
+INFO;0x0000000000000004;1735767860729134;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::5
+INFO;0x0000000000000004;1735767860729181;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::4
+INFO;0x0000000000000004;1735767860729195;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000004;1735767860729207;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000004;1735767860729226;ILNP layer running.
+INFO;0x0000000000000006;1735767860770135;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::5
+INFO;0x0000000000000006;1735767860770210;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000006;1735767860770240;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000006;1735767860770270;ILNP layer running.
+INFO;0x0000000000000003;1735767860937895;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::4
+INFO;0x0000000000000003;1735767860937965;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::3
+INFO;0x0000000000000003;1735767860938007;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000003;1735767860938044;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000003;1735767860938079;ILNP layer running.
+INFO;0x0000000000000005;1735767860946461;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::1
+INFO;0x0000000000000005;1735767860946522;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000005;1735767860946550;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000005;1735767860946581;ILNP layer running.
+INFO;0x0000000000000001;1735767860954156;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::1
+INFO;0x0000000000000001;1735767860954186;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::2
+INFO;0x0000000000000001;1735767860954195;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000001;1735767860954201;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000001;1735767860954216;ILNP layer running.
+INFO;0x0000000000000001;1735768027710214;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000001;1735768027710262;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000001;1735768027710798;PCB;4;{"start_time":1735767860951876,"ready_time":1735767860954227,"finish_time":1735768027710791,"data_request_rx":0,"data_request_tx":0,"data_request_forward_rx":26092,"data_request_forward_tx":26092,"nd_solicitation_jcmp_rx":30,"nd_solicitation_jcmp_tx":30,"nd_advertisement_jcmp_rx":30,"nd_advertisement_jcmp_tx":30,"dns_fqdn_query_jcmp_rx":30,"dns_fqdn_query_jcmp_tx":0,"dns_fqdn_response_jcmp_rx":30,"dns_fqdn_response_jcmp_tx":0,"dns_ilv_query_jcmp_rx":0,"dns_ilv_query_jcmp_tx":0,"dns_ilv_response_jcmp_rx":0,"dns_ilv_response_jcmp_tx":0,"router_request_jcmp_rx":30,"router_request_jcmp_tx":30,"router_response_jcmp_rx":30,"router_response_jcmp_tx":30}
+INFO;0x0000000000000001;1735768027713019;close_underlay_socket(): successfully left network: ff02:0:0:5d73::1
+INFO;0x0000000000000001;1735768027713078;close_underlay_socket(): successfully left network: ff02:0:0:5d73::2
+INFO;0x0000000000000001;1735768027713104;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000001;1735768027713126;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000002;1735768028164955;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000002;1735768028164961;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000002;1735768028165122;PCB;4;{"start_time":1735767860663196,"ready_time":1735767860666590,"finish_time":1735768028165117,"data_request_rx":0,"data_request_tx":0,"data_request_forward_rx":25481,"data_request_forward_tx":25481,"nd_solicitation_jcmp_rx":30,"nd_solicitation_jcmp_tx":30,"nd_advertisement_jcmp_rx":30,"nd_advertisement_jcmp_tx":30,"dns_fqdn_query_jcmp_rx":30,"dns_fqdn_query_jcmp_tx":0,"dns_fqdn_response_jcmp_rx":30,"dns_fqdn_response_jcmp_tx":0,"dns_ilv_query_jcmp_rx":0,"dns_ilv_query_jcmp_tx":0,"dns_ilv_response_jcmp_rx":0,"dns_ilv_response_jcmp_tx":0,"router_request_jcmp_rx":30,"router_request_jcmp_tx":30,"router_response_jcmp_rx":30,"router_response_jcmp_tx":30}
+INFO;0x0000000000000002;1735768028166615;close_underlay_socket(): successfully left network: ff02:0:0:5d73::2
+INFO;0x0000000000000002;1735768028166657;close_underlay_socket(): successfully left network: ff02:0:0:5d73::3
+INFO;0x0000000000000002;1735768028166671;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000002;1735768028166679;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000003;1735768028672064;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000003;1735768028672111;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000003;1735768028672210;PCB;4;{"start_time":1735767860935663,"ready_time":1735767860938152,"finish_time":1735768028672205,"data_request_rx":0,"data_request_tx":0,"data_request_forward_rx":25131,"data_request_forward_tx":25131,"nd_solicitation_jcmp_rx":30,"nd_solicitation_jcmp_tx":31,"nd_advertisement_jcmp_rx":31,"nd_advertisement_jcmp_tx":30,"dns_fqdn_query_jcmp_rx":30,"dns_fqdn_query_jcmp_tx":0,"dns_fqdn_response_jcmp_rx":30,"dns_fqdn_response_jcmp_tx":0,"dns_ilv_query_jcmp_rx":0,"dns_ilv_query_jcmp_tx":0,"dns_ilv_response_jcmp_rx":0,"dns_ilv_response_jcmp_tx":0,"router_request_jcmp_rx":30,"router_request_jcmp_tx":30,"router_response_jcmp_rx":30,"router_response_jcmp_tx":30}
+INFO;0x0000000000000003;1735768028673540;close_underlay_socket(): successfully left network: ff02:0:0:5d73::3
+INFO;0x0000000000000003;1735768028673594;close_underlay_socket(): successfully left network: ff02:0:0:5d73::4
+INFO;0x0000000000000003;1735768028673622;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000003;1735768028673645;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000004;1735768029158427;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000004;1735768029158433;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000004;1735768029158541;PCB;4;{"start_time":1735767860726730,"ready_time":1735767860729243,"finish_time":1735768029158536,"data_request_rx":0,"data_request_tx":0,"data_request_forward_rx":24173,"data_request_forward_tx":24173,"nd_solicitation_jcmp_rx":31,"nd_solicitation_jcmp_tx":31,"nd_advertisement_jcmp_rx":31,"nd_advertisement_jcmp_tx":31,"dns_fqdn_query_jcmp_rx":30,"dns_fqdn_query_jcmp_tx":0,"dns_fqdn_response_jcmp_rx":30,"dns_fqdn_response_jcmp_tx":0,"dns_ilv_query_jcmp_rx":0,"dns_ilv_query_jcmp_tx":0,"dns_ilv_response_jcmp_rx":0,"dns_ilv_response_jcmp_tx":0,"router_request_jcmp_rx":30,"router_request_jcmp_tx":0,"router_response_jcmp_rx":0,"router_response_jcmp_tx":30}
+INFO;0x0000000000000004;1735768029160052;close_underlay_socket(): successfully left network: ff02:0:0:5d73::4
+INFO;0x0000000000000004;1735768029160109;close_underlay_socket(): successfully left network: ff02:0:0:5d73::5
+INFO;0x0000000000000004;1735768029160133;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000004;1735768029160152;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000005;1735768029696245;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000005;1735768029696229;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000005;1735768029696272;PCB;4;{"start_time":1735767860944278,"ready_time":1735767860946605,"finish_time":1735768029696269,"data_request_rx":0,"data_request_tx":26550,"data_request_forward_rx":0,"data_request_forward_tx":0,"nd_solicitation_jcmp_rx":0,"nd_solicitation_jcmp_tx":30,"nd_advertisement_jcmp_rx":30,"nd_advertisement_jcmp_tx":0,"dns_fqdn_query_jcmp_rx":0,"dns_fqdn_query_jcmp_tx":30,"dns_fqdn_response_jcmp_rx":30,"dns_fqdn_response_jcmp_tx":0,"dns_ilv_query_jcmp_rx":0,"dns_ilv_query_jcmp_tx":0,"dns_ilv_response_jcmp_rx":0,"dns_ilv_response_jcmp_tx":0,"router_request_jcmp_rx":0,"router_request_jcmp_tx":30,"router_response_jcmp_rx":30,"router_response_jcmp_tx":0}
+INFO;0x0000000000000005;1735768029697633;close_underlay_socket(): successfully left network: ff02:0:0:5d73::1
+INFO;0x0000000000000005;1735768029697656;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000005;1735768029697667;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000006;1735768030252506;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000006;1735768030252515;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000006;1735768030252615;PCB;4;{"start_time":1735767860768028,"ready_time":1735767860770296,"finish_time":1735768030252611,"data_request_rx":21979,"data_request_tx":0,"data_request_forward_rx":0,"data_request_forward_tx":0,"nd_solicitation_jcmp_rx":31,"nd_solicitation_jcmp_tx":0,"nd_advertisement_jcmp_rx":0,"nd_advertisement_jcmp_tx":31,"dns_fqdn_query_jcmp_rx":30,"dns_fqdn_query_jcmp_tx":0,"dns_fqdn_response_jcmp_rx":0,"dns_fqdn_response_jcmp_tx":30,"dns_ilv_query_jcmp_rx":0,"dns_ilv_query_jcmp_tx":0,"dns_ilv_response_jcmp_rx":0,"dns_ilv_response_jcmp_tx":0,"router_request_jcmp_rx":0,"router_request_jcmp_tx":0,"router_response_jcmp_rx":0,"router_response_jcmp_tx":0}
+INFO;0x0000000000000006;1735768030253975;close_underlay_socket(): successfully left network: ff02:0:0:5d73::5
+INFO;0x0000000000000006;1735768030253998;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000006;1735768030254005;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5d73:5d73
+^C** - ctrl+c received, exiting
+
+open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+[2J[1;1H
+INFO;0x0000000000000003;1735768178313781;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::3
+INFO;0x0000000000000003;1735768178313806;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::4
+INFO;0x0000000000000003;1735768178313812;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000003;1735768178313817;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000003;1735768178313831;ILNP layer running.
+INFO;0x0000000000000004;1735768178420533;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::5
+INFO;0x0000000000000004;1735768178420612;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::4
+INFO;0x0000000000000004;1735768178420621;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000004;1735768178420626;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000004;1735768178420639;ILNP layer running.
+INFO;0x0000000000000006;1735768178639226;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::1
+INFO;0x0000000000000006;1735768178639302;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000006;1735768178639358;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000006;1735768178639393;ILNP layer running.
+INFO;0x0000000000000007;1735768178741041;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::6
+INFO;0x0000000000000007;1735768178741377;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000007;1735768178741454;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000007;1735768178741697;ILNP layer running.
+INFO;0x0000000000000005;1735768178747770;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::6
+INFO;0x0000000000000005;1735768178747901;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::5
+INFO;0x0000000000000005;1735768178748001;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000005;1735768178748088;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000005;1735768178748178;ILNP layer running.
+INFO;0x0000000000000002;1735768178765776;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::3
+INFO;0x0000000000000002;1735768178765930;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::2
+INFO;0x0000000000000002;1735768178766011;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000002;1735768178766100;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000002;1735768178766183;ILNP layer running.
+INFO;0x0000000000000001;1735768178783680;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::2
+INFO;0x0000000000000001;1735768178783718;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::1
+INFO;0x0000000000000001;1735768178783728;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000001;1735768178783735;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000001;1735768178783749;ILNP layer running.
+INFO;0x0000000000000001;1735768336000490;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000001;1735768336000514;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000001;1735768336000649;PCB;5;{"start_time":1735768178781118,"ready_time":1735768178783827,"finish_time":1735768336000642,"data_request_rx":0,"data_request_tx":0,"data_request_forward_rx":26515,"data_request_forward_tx":26515,"nd_solicitation_jcmp_rx":30,"nd_solicitation_jcmp_tx":30,"nd_advertisement_jcmp_rx":30,"nd_advertisement_jcmp_tx":30,"dns_fqdn_query_jcmp_rx":30,"dns_fqdn_query_jcmp_tx":0,"dns_fqdn_response_jcmp_rx":30,"dns_fqdn_response_jcmp_tx":0,"dns_ilv_query_jcmp_rx":0,"dns_ilv_query_jcmp_tx":0,"dns_ilv_response_jcmp_rx":0,"dns_ilv_response_jcmp_tx":0,"router_request_jcmp_rx":30,"router_request_jcmp_tx":30,"router_response_jcmp_rx":30,"router_response_jcmp_tx":30}
+INFO;0x0000000000000001;1735768336002665;close_underlay_socket(): successfully left network: ff02:0:0:5d73::1
+INFO;0x0000000000000001;1735768336002778;close_underlay_socket(): successfully left network: ff02:0:0:5d73::2
+INFO;0x0000000000000001;1735768336002868;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000001;1735768336002967;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000002;1735768336512079;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000002;1735768336512126;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000002;1735768336512226;PCB;5;{"start_time":1735768178763192,"ready_time":1735768178766317,"finish_time":1735768336512221,"data_request_rx":0,"data_request_tx":0,"data_request_forward_rx":25782,"data_request_forward_tx":25782,"nd_solicitation_jcmp_rx":30,"nd_solicitation_jcmp_tx":30,"nd_advertisement_jcmp_rx":30,"nd_advertisement_jcmp_tx":30,"dns_fqdn_query_jcmp_rx":30,"dns_fqdn_query_jcmp_tx":0,"dns_fqdn_response_jcmp_rx":30,"dns_fqdn_response_jcmp_tx":0,"dns_ilv_query_jcmp_rx":0,"dns_ilv_query_jcmp_tx":0,"dns_ilv_response_jcmp_rx":0,"dns_ilv_response_jcmp_tx":0,"router_request_jcmp_rx":30,"router_request_jcmp_tx":30,"router_response_jcmp_rx":30,"router_response_jcmp_tx":30}
+INFO;0x0000000000000002;1735768336513647;close_underlay_socket(): successfully left network: ff02:0:0:5d73::2
+INFO;0x0000000000000002;1735768336513682;close_underlay_socket(): successfully left network: ff02:0:0:5d73::3
+INFO;0x0000000000000002;1735768336513696;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000002;1735768336513704;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000003;1735768336960546;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000003;1735768336960534;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000003;1735768336960654;PCB;5;{"start_time":1735768178310964,"ready_time":1735768178313837,"finish_time":1735768336960650,"data_request_rx":0,"data_request_tx":0,"data_request_forward_rx":24666,"data_request_forward_tx":24666,"nd_solicitation_jcmp_rx":30,"nd_solicitation_jcmp_tx":30,"nd_advertisement_jcmp_rx":30,"nd_advertisement_jcmp_tx":30,"dns_fqdn_query_jcmp_rx":30,"dns_fqdn_query_jcmp_tx":0,"dns_fqdn_response_jcmp_rx":30,"dns_fqdn_response_jcmp_tx":0,"dns_ilv_query_jcmp_rx":0,"dns_ilv_query_jcmp_tx":0,"dns_ilv_response_jcmp_rx":0,"dns_ilv_response_jcmp_tx":0,"router_request_jcmp_rx":30,"router_request_jcmp_tx":30,"router_response_jcmp_rx":30,"router_response_jcmp_tx":30}
+INFO;0x0000000000000003;1735768336962082;close_underlay_socket(): successfully left network: ff02:0:0:5d73::4
+INFO;0x0000000000000003;1735768336962146;close_underlay_socket(): successfully left network: ff02:0:0:5d73::3
+INFO;0x0000000000000003;1735768336962159;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000003;1735768336962170;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000004;1735768337287190;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000004;1735768337287270;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000004;1735768337287589;PCB;5;{"start_time":1735768178418038,"ready_time":1735768178420645,"finish_time":1735768337287583,"data_request_rx":0,"data_request_tx":0,"data_request_forward_rx":23555,"data_request_forward_tx":23555,"nd_solicitation_jcmp_rx":30,"nd_solicitation_jcmp_tx":30,"nd_advertisement_jcmp_rx":30,"nd_advertisement_jcmp_tx":30,"dns_fqdn_query_jcmp_rx":30,"dns_fqdn_query_jcmp_tx":0,"dns_fqdn_response_jcmp_rx":30,"dns_fqdn_response_jcmp_tx":0,"dns_ilv_query_jcmp_rx":0,"dns_ilv_query_jcmp_tx":0,"dns_ilv_response_jcmp_rx":0,"dns_ilv_response_jcmp_tx":0,"router_request_jcmp_rx":30,"router_request_jcmp_tx":30,"router_response_jcmp_rx":30,"router_response_jcmp_tx":30}
+INFO;0x0000000000000004;1735768337289036;close_underlay_socket(): successfully left network: ff02:0:0:5d73::4
+INFO;0x0000000000000004;1735768337289068;close_underlay_socket(): successfully left network: ff02:0:0:5d73::5
+INFO;0x0000000000000004;1735768337289077;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000004;1735768337289086;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000005;1735768337655960;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000005;1735768337655967;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000005;1735768337656160;PCB;5;{"start_time":1735768178745026,"ready_time":1735768178748291,"finish_time":1735768337656156,"data_request_rx":0,"data_request_tx":0,"data_request_forward_rx":23130,"data_request_forward_tx":23130,"nd_solicitation_jcmp_rx":30,"nd_solicitation_jcmp_tx":30,"nd_advertisement_jcmp_rx":30,"nd_advertisement_jcmp_tx":30,"dns_fqdn_query_jcmp_rx":30,"dns_fqdn_query_jcmp_tx":0,"dns_fqdn_response_jcmp_rx":30,"dns_fqdn_response_jcmp_tx":0,"dns_ilv_query_jcmp_rx":0,"dns_ilv_query_jcmp_tx":0,"dns_ilv_response_jcmp_rx":0,"dns_ilv_response_jcmp_tx":0,"router_request_jcmp_rx":30,"router_request_jcmp_tx":0,"router_response_jcmp_rx":0,"router_response_jcmp_tx":30}
+INFO;0x0000000000000005;1735768337657515;close_underlay_socket(): successfully left network: ff02:0:0:5d73::5
+INFO;0x0000000000000005;1735768337657546;close_underlay_socket(): successfully left network: ff02:0:0:5d73::6
+INFO;0x0000000000000005;1735768337657561;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000005;1735768337657569;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000006;1735768338032727;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000006;1735768338032684;PCB;5;{"start_time":1735768178636740,"ready_time":1735768178639422,"finish_time":1735768338032679,"data_request_rx":0,"data_request_tx":26550,"data_request_forward_rx":0,"data_request_forward_tx":0,"nd_solicitation_jcmp_rx":0,"nd_solicitation_jcmp_tx":30,"nd_advertisement_jcmp_rx":30,"nd_advertisement_jcmp_tx":0,"dns_fqdn_query_jcmp_rx":0,"dns_fqdn_query_jcmp_tx":30,"dns_fqdn_response_jcmp_rx":30,"dns_fqdn_response_jcmp_tx":0,"dns_ilv_query_jcmp_rx":0,"dns_ilv_query_jcmp_tx":0,"dns_ilv_response_jcmp_rx":0,"dns_ilv_response_jcmp_tx":0,"router_request_jcmp_rx":0,"router_request_jcmp_tx":30,"router_response_jcmp_rx":30,"router_response_jcmp_tx":0}
+INFO;0x0000000000000006;1735768338032680;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000006;1735768338034159;close_underlay_socket(): successfully left network: ff02:0:0:5d73::1
+INFO;0x0000000000000006;1735768338034183;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000006;1735768338034190;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000007;1735768338404427;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000007;1735768338404418;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000007;1735768338404517;PCB;5;{"start_time":1735768178738329,"ready_time":1735768178741750,"finish_time":1735768338404513,"data_request_rx":21189,"data_request_tx":0,"data_request_forward_rx":0,"data_request_forward_tx":0,"nd_solicitation_jcmp_rx":30,"nd_solicitation_jcmp_tx":0,"nd_advertisement_jcmp_rx":0,"nd_advertisement_jcmp_tx":30,"dns_fqdn_query_jcmp_rx":30,"dns_fqdn_query_jcmp_tx":0,"dns_fqdn_response_jcmp_rx":0,"dns_fqdn_response_jcmp_tx":30,"dns_ilv_query_jcmp_rx":0,"dns_ilv_query_jcmp_tx":0,"dns_ilv_response_jcmp_rx":0,"dns_ilv_response_jcmp_tx":0,"router_request_jcmp_rx":0,"router_request_jcmp_tx":0,"router_response_jcmp_rx":0,"router_response_jcmp_tx":0}
+INFO;0x0000000000000007;1735768338405840;close_underlay_socket(): successfully left network: ff02:0:0:5d73::6
+INFO;0x0000000000000007;1735768338405865;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000007;1735768338405873;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5d73:5d73
+^C** - ctrl+c received, exiting
+open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+[2J[1;1H
+INFO;0x0000000000000006;1735768501166853;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::6
+INFO;0x0000000000000006;1735768501166882;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::7
+INFO;0x0000000000000006;1735768501166893;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000006;1735768501166901;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000006;1735768501166940;ILNP layer running.
+INFO;0x0000000000000002;1735768501173319;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::2
+INFO;0x0000000000000002;1735768501173349;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::3
+INFO;0x0000000000000002;1735768501173355;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000002;1735768501173361;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000002;1735768501173373;ILNP layer running.
+INFO;0x0000000000000004;1735768501316112;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::5
+INFO;0x0000000000000004;1735768501316141;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::4
+INFO;0x0000000000000004;1735768501316148;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000004;1735768501316153;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000004;1735768501316163;ILNP layer running.
+INFO;0x0000000000000007;1735768501395504;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::1
+INFO;0x0000000000000007;1735768501395582;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000007;1735768501395613;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000007;1735768501395645;ILNP layer running.
+INFO;0x0000000000000008;1735768501402700;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::7
+INFO;0x0000000000000008;1735768501402825;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000008;1735768501402864;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000008;1735768501402908;ILNP layer running.
+INFO;0x0000000000000003;1735768501427459;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::4
+INFO;0x0000000000000003;1735768501427496;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::3
+INFO;0x0000000000000003;1735768501427504;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000003;1735768501427511;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000003;1735768501427525;ILNP layer running.
+INFO;0x0000000000000001;1735768501573385;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::1
+INFO;0x0000000000000001;1735768501573618;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::2
+INFO;0x0000000000000001;1735768501573711;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000001;1735768501573804;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000001;1735768501573889;ILNP layer running.
+INFO;0x0000000000000005;1735768501583866;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::5
+INFO;0x0000000000000005;1735768501583996;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::6
+INFO;0x0000000000000005;1735768501584083;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000005;1735768501584157;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000005;1735768501584237;ILNP layer running.
+INFO;0x0000000000000001;1735768667896361;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000001;1735768667896432;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000001;1735768667897346;PCB;6;{"start_time":1735768501570146,"ready_time":1735768501573971,"finish_time":1735768667897330,"data_request_rx":0,"data_request_tx":0,"data_request_forward_rx":26501,"data_request_forward_tx":26501,"nd_solicitation_jcmp_rx":30,"nd_solicitation_jcmp_tx":30,"nd_advertisement_jcmp_rx":30,"nd_advertisement_jcmp_tx":30,"dns_fqdn_query_jcmp_rx":30,"dns_fqdn_query_jcmp_tx":0,"dns_fqdn_response_jcmp_rx":30,"dns_fqdn_response_jcmp_tx":0,"dns_ilv_query_jcmp_rx":0,"dns_ilv_query_jcmp_tx":0,"dns_ilv_response_jcmp_rx":0,"dns_ilv_response_jcmp_tx":0,"router_request_jcmp_rx":30,"router_request_jcmp_tx":30,"router_response_jcmp_rx":30,"router_response_jcmp_tx":30}
+INFO;0x0000000000000001;1735768667903134;close_underlay_socket(): successfully left network: ff02:0:0:5d73::2
+INFO;0x0000000000000001;1735768667903278;close_underlay_socket(): successfully left network: ff02:0:0:5d73::1
+INFO;0x0000000000000001;1735768667903351;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000001;1735768667903394;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000002;1735768668476917;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000002;1735768668476928;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000002;1735768668477093;PCB;6;{"start_time":1735768501171025,"ready_time":1735768501173384,"finish_time":1735768668477089,"data_request_rx":0,"data_request_tx":0,"data_request_forward_rx":26261,"data_request_forward_tx":26261,"nd_solicitation_jcmp_rx":30,"nd_solicitation_jcmp_tx":30,"nd_advertisement_jcmp_rx":30,"nd_advertisement_jcmp_tx":30,"dns_fqdn_query_jcmp_rx":30,"dns_fqdn_query_jcmp_tx":0,"dns_fqdn_response_jcmp_rx":30,"dns_fqdn_response_jcmp_tx":0,"dns_ilv_query_jcmp_rx":0,"dns_ilv_query_jcmp_tx":0,"dns_ilv_response_jcmp_rx":0,"dns_ilv_response_jcmp_tx":0,"router_request_jcmp_rx":30,"router_request_jcmp_tx":30,"router_response_jcmp_rx":30,"router_response_jcmp_tx":30}
+INFO;0x0000000000000002;1735768668478522;close_underlay_socket(): successfully left network: ff02:0:0:5d73::2
+INFO;0x0000000000000002;1735768668478574;close_underlay_socket(): successfully left network: ff02:0:0:5d73::3
+INFO;0x0000000000000002;1735768668478588;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000002;1735768668478598;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000003;1735768668982971;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000003;1735768668982952;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000003;1735768668983093;PCB;6;{"start_time":1735768501425301,"ready_time":1735768501427537,"finish_time":1735768668983088,"data_request_rx":0,"data_request_tx":0,"data_request_forward_rx":25903,"data_request_forward_tx":25903,"nd_solicitation_jcmp_rx":30,"nd_solicitation_jcmp_tx":31,"nd_advertisement_jcmp_rx":31,"nd_advertisement_jcmp_tx":30,"dns_fqdn_query_jcmp_rx":30,"dns_fqdn_query_jcmp_tx":0,"dns_fqdn_response_jcmp_rx":30,"dns_fqdn_response_jcmp_tx":0,"dns_ilv_query_jcmp_rx":0,"dns_ilv_query_jcmp_tx":0,"dns_ilv_response_jcmp_rx":0,"dns_ilv_response_jcmp_tx":0,"router_request_jcmp_rx":30,"router_request_jcmp_tx":30,"router_response_jcmp_rx":30,"router_response_jcmp_tx":30}
+INFO;0x0000000000000003;1735768668984458;close_underlay_socket(): successfully left network: ff02:0:0:5d73::3
+INFO;0x0000000000000003;1735768668984492;close_underlay_socket(): successfully left network: ff02:0:0:5d73::4
+INFO;0x0000000000000003;1735768668984509;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000003;1735768668984523;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000004;1735768669536922;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000004;1735768669536969;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000004;1735768669537076;PCB;6;{"start_time":1735768501313833,"ready_time":1735768501316169,"finish_time":1735768669537071,"data_request_rx":0,"data_request_tx":0,"data_request_forward_rx":24857,"data_request_forward_tx":24857,"nd_solicitation_jcmp_rx":31,"nd_solicitation_jcmp_tx":31,"nd_advertisement_jcmp_rx":31,"nd_advertisement_jcmp_tx":31,"dns_fqdn_query_jcmp_rx":30,"dns_fqdn_query_jcmp_tx":0,"dns_fqdn_response_jcmp_rx":30,"dns_fqdn_response_jcmp_tx":0,"dns_ilv_query_jcmp_rx":0,"dns_ilv_query_jcmp_tx":0,"dns_ilv_response_jcmp_rx":0,"dns_ilv_response_jcmp_tx":0,"router_request_jcmp_rx":30,"router_request_jcmp_tx":30,"router_response_jcmp_rx":30,"router_response_jcmp_tx":30}
+INFO;0x0000000000000004;1735768669538442;close_underlay_socket(): successfully left network: ff02:0:0:5d73::5
+INFO;0x0000000000000004;1735768669538499;close_underlay_socket(): successfully left network: ff02:0:0:5d73::4
+INFO;0x0000000000000004;1735768669538529;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000004;1735768669538544;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000005;1735768670052186;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000005;1735768670052179;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000005;1735768670052301;PCB;6;{"start_time":1735768501580492,"ready_time":1735768501584383,"finish_time":1735768670052297,"data_request_rx":0,"data_request_tx":0,"data_request_forward_rx":24387,"data_request_forward_tx":24387,"nd_solicitation_jcmp_rx":31,"nd_solicitation_jcmp_tx":30,"nd_advertisement_jcmp_rx":30,"nd_advertisement_jcmp_tx":31,"dns_fqdn_query_jcmp_rx":30,"dns_fqdn_query_jcmp_tx":0,"dns_fqdn_response_jcmp_rx":30,"dns_fqdn_response_jcmp_tx":0,"dns_ilv_query_jcmp_rx":0,"dns_ilv_query_jcmp_tx":0,"dns_ilv_response_jcmp_rx":0,"dns_ilv_response_jcmp_tx":0,"router_request_jcmp_rx":30,"router_request_jcmp_tx":30,"router_response_jcmp_rx":30,"router_response_jcmp_tx":30}
+INFO;0x0000000000000005;1735768670053679;close_underlay_socket(): successfully left network: ff02:0:0:5d73::5
+INFO;0x0000000000000005;1735768670053710;close_underlay_socket(): successfully left network: ff02:0:0:5d73::6
+INFO;0x0000000000000005;1735768670053719;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000005;1735768670053727;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000006;1735768670617374;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000006;1735768670617365;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000006;1735768670617505;PCB;6;{"start_time":1735768501164531,"ready_time":1735768501166950,"finish_time":1735768670617501,"data_request_rx":0,"data_request_tx":0,"data_request_forward_rx":23252,"data_request_forward_tx":23252,"nd_solicitation_jcmp_rx":30,"nd_solicitation_jcmp_tx":30,"nd_advertisement_jcmp_rx":30,"nd_advertisement_jcmp_tx":30,"dns_fqdn_query_jcmp_rx":30,"dns_fqdn_query_jcmp_tx":0,"dns_fqdn_response_jcmp_rx":30,"dns_fqdn_response_jcmp_tx":0,"dns_ilv_query_jcmp_rx":0,"dns_ilv_query_jcmp_tx":0,"dns_ilv_response_jcmp_rx":0,"dns_ilv_response_jcmp_tx":0,"router_request_jcmp_rx":30,"router_request_jcmp_tx":0,"router_response_jcmp_rx":0,"router_response_jcmp_tx":30}
+INFO;0x0000000000000006;1735768670618864;close_underlay_socket(): successfully left network: ff02:0:0:5d73::6
+INFO;0x0000000000000006;1735768670618890;close_underlay_socket(): successfully left network: ff02:0:0:5d73::7
+INFO;0x0000000000000006;1735768670618903;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000006;1735768670618910;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000007;1735768671162541;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000007;1735768671162543;PCB;6;{"start_time":1735768501392850,"ready_time":1735768501395674,"finish_time":1735768671162537,"data_request_rx":0,"data_request_tx":26550,"data_request_forward_rx":0,"data_request_forward_tx":0,"nd_solicitation_jcmp_rx":0,"nd_solicitation_jcmp_tx":30,"nd_advertisement_jcmp_rx":30,"nd_advertisement_jcmp_tx":0,"dns_fqdn_query_jcmp_rx":0,"dns_fqdn_query_jcmp_tx":30,"dns_fqdn_response_jcmp_rx":30,"dns_fqdn_response_jcmp_tx":0,"dns_ilv_query_jcmp_rx":0,"dns_ilv_query_jcmp_tx":0,"dns_ilv_response_jcmp_rx":0,"dns_ilv_response_jcmp_tx":0,"router_request_jcmp_rx":0,"router_request_jcmp_tx":30,"router_response_jcmp_rx":30,"router_response_jcmp_tx":0}
+INFO;0x0000000000000007;1735768671162567;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000007;1735768671163896;close_underlay_socket(): successfully left network: ff02:0:0:5d73::1
+INFO;0x0000000000000007;1735768671163920;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000007;1735768671163929;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000008;1735768671660412;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000008;1735768671660424;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000008;1735768671660526;PCB;6;{"start_time":1735768501400366,"ready_time":1735768501402941,"finish_time":1735768671660521,"data_request_rx":22112,"data_request_tx":0,"data_request_forward_rx":0,"data_request_forward_tx":0,"nd_solicitation_jcmp_rx":30,"nd_solicitation_jcmp_tx":0,"nd_advertisement_jcmp_rx":0,"nd_advertisement_jcmp_tx":30,"dns_fqdn_query_jcmp_rx":30,"dns_fqdn_query_jcmp_tx":0,"dns_fqdn_response_jcmp_rx":0,"dns_fqdn_response_jcmp_tx":30,"dns_ilv_query_jcmp_rx":0,"dns_ilv_query_jcmp_tx":0,"dns_ilv_response_jcmp_rx":0,"dns_ilv_response_jcmp_tx":0,"router_request_jcmp_rx":0,"router_request_jcmp_tx":0,"router_response_jcmp_rx":0,"router_response_jcmp_tx":0}
+INFO;0x0000000000000008;1735768671662163;close_underlay_socket(): successfully left network: ff02:0:0:5d73::7
+INFO;0x0000000000000008;1735768671662187;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000008;1735768671662195;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5d73:5d73
+^C** - ctrl+c received, exiting
+open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+[2J[1;1H
+INFO;0x0000000000000001;1735768857361059;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::2
+INFO;0x0000000000000001;1735768857361087;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::1
+INFO;0x0000000000000001;1735768857361093;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000001;1735768857361098;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000001;1735768857361109;ILNP layer running.
+INFO;0x0000000000000009;1735768857471545;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::8
+INFO;0x0000000000000009;1735768857471586;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000009;1735768857471594;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000009;1735768857471606;ILNP layer running.
+INFO;0x0000000000000002;1735768857479694;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::3
+INFO;0x0000000000000002;1735768857479751;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::2
+INFO;0x0000000000000002;1735768857479772;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000002;1735768857479789;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000002;1735768857479830;ILNP layer running.
+INFO;0x0000000000000005;1735768857511388;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::5
+INFO;0x0000000000000005;1735768857511421;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::6
+INFO;0x0000000000000005;1735768857511433;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000005;1735768857511440;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000005;1735768857511452;ILNP layer running.
+INFO;0x0000000000000006;1735768857624311;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::6
+INFO;0x0000000000000006;1735768857624464;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::7
+INFO;0x0000000000000006;1735768857624567;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000006;1735768857624685;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000006;1735768857624936;ILNP layer running.
+INFO;0x0000000000000003;1735768857744362;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::3
+INFO;0x0000000000000003;1735768857744496;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::4
+INFO;0x0000000000000003;1735768857744690;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000003;1735768857744803;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000003;1735768857744913;ILNP layer running.
+INFO;0x0000000000000004;1735768857776466;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::5
+INFO;0x0000000000000004;1735768857776654;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::4
+INFO;0x0000000000000004;1735768857776814;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000004;1735768857776946;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000004;1735768857777082;ILNP layer running.
+INFO;0x0000000000000008;1735768857795527;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::1
+INFO;0x0000000000000008;1735768857795580;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000008;1735768857795594;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000008;1735768857795613;ILNP layer running.
+INFO;0x0000000000000007;1735768857833930;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::7
+INFO;0x0000000000000007;1735768857834106;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::8
+INFO;0x0000000000000007;1735768857834208;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000007;1735768857834305;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000007;1735768857834406;ILNP layer running.
+INFO;0x0000000000000001;1735769014633676;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000001;1735769014633747;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000001;1735769014634292;PCB;7;{"start_time":1735768857358858,"ready_time":1735768857361116,"finish_time":1735769014634276,"data_request_rx":0,"data_request_tx":0,"data_request_forward_rx":26534,"data_request_forward_tx":26534,"nd_solicitation_jcmp_rx":30,"nd_solicitation_jcmp_tx":30,"nd_advertisement_jcmp_rx":30,"nd_advertisement_jcmp_tx":30,"dns_fqdn_query_jcmp_rx":30,"dns_fqdn_query_jcmp_tx":0,"dns_fqdn_response_jcmp_rx":30,"dns_fqdn_response_jcmp_tx":0,"dns_ilv_query_jcmp_rx":0,"dns_ilv_query_jcmp_tx":0,"dns_ilv_response_jcmp_rx":0,"dns_ilv_response_jcmp_tx":0,"router_request_jcmp_rx":30,"router_request_jcmp_tx":30,"router_response_jcmp_rx":30,"router_response_jcmp_tx":30}
+INFO;0x0000000000000001;1735769014639883;close_underlay_socket(): successfully left network: ff02:0:0:5d73::2
+INFO;0x0000000000000001;1735769014640131;close_underlay_socket(): successfully left network: ff02:0:0:5d73::1
+INFO;0x0000000000000001;1735769014640372;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000001;1735769014640699;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000002;1735769015181326;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000002;1735769015181343;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000002;1735769015181491;PCB;7;{"start_time":1735768857476669,"ready_time":1735768857479868,"finish_time":1735769015181487,"data_request_rx":0,"data_request_tx":0,"data_request_forward_rx":26103,"data_request_forward_tx":26103,"nd_solicitation_jcmp_rx":30,"nd_solicitation_jcmp_tx":30,"nd_advertisement_jcmp_rx":30,"nd_advertisement_jcmp_tx":30,"dns_fqdn_query_jcmp_rx":30,"dns_fqdn_query_jcmp_tx":0,"dns_fqdn_response_jcmp_rx":30,"dns_fqdn_response_jcmp_tx":0,"dns_ilv_query_jcmp_rx":0,"dns_ilv_query_jcmp_tx":0,"dns_ilv_response_jcmp_rx":0,"dns_ilv_response_jcmp_tx":0,"router_request_jcmp_rx":30,"router_request_jcmp_tx":30,"router_response_jcmp_rx":30,"router_response_jcmp_tx":30}
+INFO;0x0000000000000002;1735769015182886;close_underlay_socket(): successfully left network: ff02:0:0:5d73::3
+INFO;0x0000000000000002;1735769015182946;close_underlay_socket(): successfully left network: ff02:0:0:5d73::2
+INFO;0x0000000000000002;1735769015182961;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000002;1735769015182974;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000003;1735769015652578;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000003;1735769015652614;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000003;1735769015652917;PCB;7;{"start_time":1735768857740345,"ready_time":1735768857745012,"finish_time":1735769015652913,"data_request_rx":0,"data_request_tx":0,"data_request_forward_rx":25399,"data_request_forward_tx":25399,"nd_solicitation_jcmp_rx":30,"nd_solicitation_jcmp_tx":30,"nd_advertisement_jcmp_rx":30,"nd_advertisement_jcmp_tx":30,"dns_fqdn_query_jcmp_rx":30,"dns_fqdn_query_jcmp_tx":0,"dns_fqdn_response_jcmp_rx":30,"dns_fqdn_response_jcmp_tx":0,"dns_ilv_query_jcmp_rx":0,"dns_ilv_query_jcmp_tx":0,"dns_ilv_response_jcmp_rx":0,"dns_ilv_response_jcmp_tx":0,"router_request_jcmp_rx":30,"router_request_jcmp_tx":30,"router_response_jcmp_rx":30,"router_response_jcmp_tx":30}
+INFO;0x0000000000000003;1735769015654306;close_underlay_socket(): successfully left network: ff02:0:0:5d73::3
+INFO;0x0000000000000003;1735769015654344;close_underlay_socket(): successfully left network: ff02:0:0:5d73::4
+INFO;0x0000000000000003;1735769015654355;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000003;1735769015654364;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000004;1735769016189170;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000004;1735769016189225;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000004;1735769016189345;PCB;7;{"start_time":1735768857773012,"ready_time":1735768857777208,"finish_time":1735769016189341,"data_request_rx":0,"data_request_tx":0,"data_request_forward_rx":24887,"data_request_forward_tx":24887,"nd_solicitation_jcmp_rx":30,"nd_solicitation_jcmp_tx":30,"nd_advertisement_jcmp_rx":30,"nd_advertisement_jcmp_tx":30,"dns_fqdn_query_jcmp_rx":30,"dns_fqdn_query_jcmp_tx":0,"dns_fqdn_response_jcmp_rx":30,"dns_fqdn_response_jcmp_tx":0,"dns_ilv_query_jcmp_rx":0,"dns_ilv_query_jcmp_tx":0,"dns_ilv_response_jcmp_rx":0,"dns_ilv_response_jcmp_tx":0,"router_request_jcmp_rx":30,"router_request_jcmp_tx":30,"router_response_jcmp_rx":30,"router_response_jcmp_tx":30}
+INFO;0x0000000000000004;1735769016190708;close_underlay_socket(): successfully left network: ff02:0:0:5d73::5
+INFO;0x0000000000000004;1735769016190903;close_underlay_socket(): successfully left network: ff02:0:0:5d73::4
+INFO;0x0000000000000004;1735769016190929;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000004;1735769016190943;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000005;1735769016699311;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000005;1735769016699323;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000005;1735769016699669;PCB;7;{"start_time":1735768857509275,"ready_time":1735768857511462,"finish_time":1735769016699664,"data_request_rx":0,"data_request_tx":0,"data_request_forward_rx":24492,"data_request_forward_tx":24492,"nd_solicitation_jcmp_rx":30,"nd_solicitation_jcmp_tx":30,"nd_advertisement_jcmp_rx":30,"nd_advertisement_jcmp_tx":30,"dns_fqdn_query_jcmp_rx":30,"dns_fqdn_query_jcmp_tx":0,"dns_fqdn_response_jcmp_rx":30,"dns_fqdn_response_jcmp_tx":0,"dns_ilv_query_jcmp_rx":0,"dns_ilv_query_jcmp_tx":0,"dns_ilv_response_jcmp_rx":0,"dns_ilv_response_jcmp_tx":0,"router_request_jcmp_rx":30,"router_request_jcmp_tx":30,"router_response_jcmp_rx":30,"router_response_jcmp_tx":30}
+INFO;0x0000000000000005;1735769016701025;close_underlay_socket(): successfully left network: ff02:0:0:5d73::5
+INFO;0x0000000000000005;1735769016701061;close_underlay_socket(): successfully left network: ff02:0:0:5d73::6
+INFO;0x0000000000000005;1735769016701081;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000005;1735769016701091;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000006;1735769017267797;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000006;1735769017267822;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000006;1735769017267950;PCB;7;{"start_time":1735768857619305,"ready_time":1735768857625119,"finish_time":1735769017267946,"data_request_rx":0,"data_request_tx":0,"data_request_forward_rx":24474,"data_request_forward_tx":24474,"nd_solicitation_jcmp_rx":30,"nd_solicitation_jcmp_tx":30,"nd_advertisement_jcmp_rx":30,"nd_advertisement_jcmp_tx":30,"dns_fqdn_query_jcmp_rx":30,"dns_fqdn_query_jcmp_tx":0,"dns_fqdn_response_jcmp_rx":30,"dns_fqdn_response_jcmp_tx":0,"dns_ilv_query_jcmp_rx":0,"dns_ilv_query_jcmp_tx":0,"dns_ilv_response_jcmp_rx":0,"dns_ilv_response_jcmp_tx":0,"router_request_jcmp_rx":30,"router_request_jcmp_tx":30,"router_response_jcmp_rx":30,"router_response_jcmp_tx":30}
+INFO;0x0000000000000006;1735769017269443;close_underlay_socket(): successfully left network: ff02:0:0:5d73::7
+INFO;0x0000000000000006;1735769017269576;close_underlay_socket(): successfully left network: ff02:0:0:5d73::6
+INFO;0x0000000000000006;1735769017269617;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000006;1735769017269645;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000007;1735769017784435;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000007;1735769017784444;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000007;1735769017784581;PCB;7;{"start_time":1735768857830685,"ready_time":1735768857834501,"finish_time":1735769017784577,"data_request_rx":0,"data_request_tx":0,"data_request_forward_rx":23466,"data_request_forward_tx":23466,"nd_solicitation_jcmp_rx":30,"nd_solicitation_jcmp_tx":30,"nd_advertisement_jcmp_rx":30,"nd_advertisement_jcmp_tx":30,"dns_fqdn_query_jcmp_rx":30,"dns_fqdn_query_jcmp_tx":0,"dns_fqdn_response_jcmp_rx":30,"dns_fqdn_response_jcmp_tx":0,"dns_ilv_query_jcmp_rx":0,"dns_ilv_query_jcmp_tx":0,"dns_ilv_response_jcmp_rx":0,"dns_ilv_response_jcmp_tx":0,"router_request_jcmp_rx":30,"router_request_jcmp_tx":0,"router_response_jcmp_rx":0,"router_response_jcmp_tx":30}
+INFO;0x0000000000000007;1735769017785971;close_underlay_socket(): successfully left network: ff02:0:0:5d73::8
+INFO;0x0000000000000007;1735769017786015;close_underlay_socket(): successfully left network: ff02:0:0:5d73::7
+INFO;0x0000000000000007;1735769017786027;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000007;1735769017786039;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000008;1735769018282453;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000008;1735769018282445;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000008;1735769018282448;PCB;7;{"start_time":1735768857792320,"ready_time":1735768857795631,"finish_time":1735769018282443,"data_request_rx":0,"data_request_tx":26550,"data_request_forward_rx":0,"data_request_forward_tx":0,"nd_solicitation_jcmp_rx":0,"nd_solicitation_jcmp_tx":30,"nd_advertisement_jcmp_rx":30,"nd_advertisement_jcmp_tx":0,"dns_fqdn_query_jcmp_rx":0,"dns_fqdn_query_jcmp_tx":30,"dns_fqdn_response_jcmp_rx":30,"dns_fqdn_response_jcmp_tx":0,"dns_ilv_query_jcmp_rx":0,"dns_ilv_query_jcmp_tx":0,"dns_ilv_response_jcmp_rx":0,"dns_ilv_response_jcmp_tx":0,"router_request_jcmp_rx":0,"router_request_jcmp_tx":30,"router_response_jcmp_rx":30,"router_response_jcmp_tx":0}
+INFO;0x0000000000000008;1735769018283867;close_underlay_socket(): successfully left network: ff02:0:0:5d73::1
+INFO;0x0000000000000008;1735769018283898;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000008;1735769018283907;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000009;1735769018846108;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000009;1735769018846139;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000009;1735769018846216;PCB;7;{"start_time":1735768857469080,"ready_time":1735768857471612,"finish_time":1735769018846211,"data_request_rx":21142,"data_request_tx":0,"data_request_forward_rx":0,"data_request_forward_tx":0,"nd_solicitation_jcmp_rx":30,"nd_solicitation_jcmp_tx":0,"nd_advertisement_jcmp_rx":0,"nd_advertisement_jcmp_tx":30,"dns_fqdn_query_jcmp_rx":30,"dns_fqdn_query_jcmp_tx":0,"dns_fqdn_response_jcmp_rx":0,"dns_fqdn_response_jcmp_tx":30,"dns_ilv_query_jcmp_rx":0,"dns_ilv_query_jcmp_tx":0,"dns_ilv_response_jcmp_rx":0,"dns_ilv_response_jcmp_tx":0,"router_request_jcmp_rx":0,"router_request_jcmp_tx":0,"router_response_jcmp_rx":0,"router_response_jcmp_tx":0}
+INFO;0x0000000000000009;1735769018847550;close_underlay_socket(): successfully left network: ff02:0:0:5d73::8
+INFO;0x0000000000000009;1735769018847579;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000009;1735769018847587;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5d73:5d73
+^C** - ctrl+c received, exiting
+open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+[2J[1;1H
+INFO;0x0000000000000001;1735769223012299;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::1
+INFO;0x0000000000000001;1735769223012325;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::2
+INFO;0x0000000000000001;1735769223012331;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000001;1735769223012335;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000001;1735769223012347;ILNP layer running.
+INFO;0x0000000000000009;1735769225020074;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::1
+INFO;0x0000000000000009;1735769225020103;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000009;1735769225020110;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000009;1735769225020123;ILNP layer running.
+INFO;0x0000000000000002;1735769225041499;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::2
+INFO;0x0000000000000002;1735769225041527;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::3
+INFO;0x0000000000000002;1735769225041534;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000002;1735769225041541;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000002;1735769225041561;ILNP layer running.
+INFO;0x000000000000000A;1735769225094310;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::9
+INFO;0x000000000000000A;1735769225094436;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5353:5353
+INFO;0x000000000000000A;1735769225094491;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+INFO;0x000000000000000A;1735769225094542;ILNP layer running.
+INFO;0x0000000000000007;1735769225127902;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::8
+INFO;0x0000000000000007;1735769225127942;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::7
+INFO;0x0000000000000007;1735769225127950;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000007;1735769225127957;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000007;1735769225127977;ILNP layer running.
+INFO;0x0000000000000008;1735769225171433;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::8
+INFO;0x0000000000000008;1735769225171506;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::9
+INFO;0x0000000000000008;1735769225171542;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000008;1735769225171570;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000008;1735769225171600;ILNP layer running.
+INFO;0x0000000000000003;1735769225187279;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::4
+INFO;0x0000000000000003;1735769225187372;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::3
+INFO;0x0000000000000003;1735769225187415;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000003;1735769225187452;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000003;1735769225187493;ILNP layer running.
+INFO;0x0000000000000004;1735769225202338;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::4
+INFO;0x0000000000000004;1735769225202377;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::5
+INFO;0x0000000000000004;1735769225202386;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000004;1735769225202394;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000004;1735769225202430;ILNP layer running.
+INFO;0x0000000000000006;1735769225252199;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::7
+INFO;0x0000000000000006;1735769225252299;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::6
+INFO;0x0000000000000006;1735769225252552;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000006;1735769225252652;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000006;1735769225252744;ILNP layer running.
+INFO;0x0000000000000005;1735769225281468;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::6
+INFO;0x0000000000000005;1735769225281630;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::5
+INFO;0x0000000000000005;1735769225281731;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000005;1735769225281822;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000005;1735769225281912;ILNP layer running.
+INFO;0x0000000000000001;1735769381074639;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000001;1735769381074691;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000001;1735769381075141;PCB;8;{"start_time":1735769223010073,"ready_time":1735769223012352,"finish_time":1735769381075126,"data_request_rx":0,"data_request_tx":0,"data_request_forward_rx":26228,"data_request_forward_tx":26228,"nd_solicitation_jcmp_rx":30,"nd_solicitation_jcmp_tx":30,"nd_advertisement_jcmp_rx":30,"nd_advertisement_jcmp_tx":30,"dns_fqdn_query_jcmp_rx":30,"dns_fqdn_query_jcmp_tx":0,"dns_fqdn_response_jcmp_rx":30,"dns_fqdn_response_jcmp_tx":0,"dns_ilv_query_jcmp_rx":0,"dns_ilv_query_jcmp_tx":0,"dns_ilv_response_jcmp_rx":0,"dns_ilv_response_jcmp_tx":0,"router_request_jcmp_rx":30,"router_request_jcmp_tx":30,"router_response_jcmp_rx":30,"router_response_jcmp_tx":30}
+INFO;0x0000000000000001;1735769381080190;close_underlay_socket(): successfully left network: ff02:0:0:5d73::2
+INFO;0x0000000000000001;1735769381080303;close_underlay_socket(): successfully left network: ff02:0:0:5d73::1
+INFO;0x0000000000000001;1735769381080380;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000001;1735769381080451;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000002;1735769381575303;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000002;1735769381575313;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000002;1735769381575444;PCB;8;{"start_time":1735769225038084,"ready_time":1735769225041569,"finish_time":1735769381575440,"data_request_rx":0,"data_request_tx":0,"data_request_forward_rx":26098,"data_request_forward_tx":26098,"nd_solicitation_jcmp_rx":30,"nd_solicitation_jcmp_tx":30,"nd_advertisement_jcmp_rx":30,"nd_advertisement_jcmp_tx":30,"dns_fqdn_query_jcmp_rx":30,"dns_fqdn_query_jcmp_tx":0,"dns_fqdn_response_jcmp_rx":30,"dns_fqdn_response_jcmp_tx":0,"dns_ilv_query_jcmp_rx":0,"dns_ilv_query_jcmp_tx":0,"dns_ilv_response_jcmp_rx":0,"dns_ilv_response_jcmp_tx":0,"router_request_jcmp_rx":30,"router_request_jcmp_tx":30,"router_response_jcmp_rx":30,"router_response_jcmp_tx":30}
+INFO;0x0000000000000002;1735769381576777;close_underlay_socket(): successfully left network: ff02:0:0:5d73::3
+INFO;0x0000000000000002;1735769381576897;close_underlay_socket(): successfully left network: ff02:0:0:5d73::2
+INFO;0x0000000000000002;1735769381576968;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000002;1735769381577040;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000003;1735769382102320;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000003;1735769382102377;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000003;1735769382102487;PCB;8;{"start_time":1735769225185004,"ready_time":1735769225187551,"finish_time":1735769382102482,"data_request_rx":0,"data_request_tx":0,"data_request_forward_rx":25813,"data_request_forward_tx":25813,"nd_solicitation_jcmp_rx":30,"nd_solicitation_jcmp_tx":30,"nd_advertisement_jcmp_rx":30,"nd_advertisement_jcmp_tx":30,"dns_fqdn_query_jcmp_rx":30,"dns_fqdn_query_jcmp_tx":0,"dns_fqdn_response_jcmp_rx":30,"dns_fqdn_response_jcmp_tx":0,"dns_ilv_query_jcmp_rx":0,"dns_ilv_query_jcmp_tx":0,"dns_ilv_response_jcmp_rx":0,"dns_ilv_response_jcmp_tx":0,"router_request_jcmp_rx":30,"router_request_jcmp_tx":30,"router_response_jcmp_rx":30,"router_response_jcmp_tx":30}
+INFO;0x0000000000000003;1735769382104012;close_underlay_socket(): successfully left network: ff02:0:0:5d73::3
+INFO;0x0000000000000003;1735769382104094;close_underlay_socket(): successfully left network: ff02:0:0:5d73::4
+INFO;0x0000000000000003;1735769382104143;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000003;1735769382104204;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000004;1735769382625313;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000004;1735769382625323;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000004;1735769382625462;PCB;8;{"start_time":1735769225200076,"ready_time":1735769225202448,"finish_time":1735769382625458,"data_request_rx":0,"data_request_tx":0,"data_request_forward_rx":24773,"data_request_forward_tx":24773,"nd_solicitation_jcmp_rx":30,"nd_solicitation_jcmp_tx":30,"nd_advertisement_jcmp_rx":30,"nd_advertisement_jcmp_tx":30,"dns_fqdn_query_jcmp_rx":30,"dns_fqdn_query_jcmp_tx":0,"dns_fqdn_response_jcmp_rx":30,"dns_fqdn_response_jcmp_tx":0,"dns_ilv_query_jcmp_rx":0,"dns_ilv_query_jcmp_tx":0,"dns_ilv_response_jcmp_rx":0,"dns_ilv_response_jcmp_tx":0,"router_request_jcmp_rx":30,"router_request_jcmp_tx":30,"router_response_jcmp_rx":30,"router_response_jcmp_tx":30}
+INFO;0x0000000000000004;1735769382626766;close_underlay_socket(): successfully left network: ff02:0:0:5d73::4
+INFO;0x0000000000000004;1735769382626805;close_underlay_socket(): successfully left network: ff02:0:0:5d73::5
+INFO;0x0000000000000004;1735769382626818;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000004;1735769382626827;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000005;1735769383156381;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000005;1735769383156426;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000005;1735769383156549;PCB;8;{"start_time":1735769225278481,"ready_time":1735769225281994,"finish_time":1735769383156545,"data_request_rx":0,"data_request_tx":0,"data_request_forward_rx":24117,"data_request_forward_tx":24117,"nd_solicitation_jcmp_rx":30,"nd_solicitation_jcmp_tx":30,"nd_advertisement_jcmp_rx":30,"nd_advertisement_jcmp_tx":30,"dns_fqdn_query_jcmp_rx":30,"dns_fqdn_query_jcmp_tx":0,"dns_fqdn_response_jcmp_rx":30,"dns_fqdn_response_jcmp_tx":0,"dns_ilv_query_jcmp_rx":0,"dns_ilv_query_jcmp_tx":0,"dns_ilv_response_jcmp_rx":0,"dns_ilv_response_jcmp_tx":0,"router_request_jcmp_rx":30,"router_request_jcmp_tx":30,"router_response_jcmp_rx":30,"router_response_jcmp_tx":30}
+INFO;0x0000000000000005;1735769383158163;close_underlay_socket(): successfully left network: ff02:0:0:5d73::5
+INFO;0x0000000000000005;1735769383158201;close_underlay_socket(): successfully left network: ff02:0:0:5d73::6
+INFO;0x0000000000000005;1735769383158214;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000005;1735769383158227;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000006;1735769383683475;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000006;1735769383683483;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000006;1735769383683617;PCB;8;{"start_time":1735769225248528,"ready_time":1735769225252839,"finish_time":1735769383683612,"data_request_rx":0,"data_request_tx":0,"data_request_forward_rx":24088,"data_request_forward_tx":24088,"nd_solicitation_jcmp_rx":30,"nd_solicitation_jcmp_tx":30,"nd_advertisement_jcmp_rx":30,"nd_advertisement_jcmp_tx":30,"dns_fqdn_query_jcmp_rx":30,"dns_fqdn_query_jcmp_tx":0,"dns_fqdn_response_jcmp_rx":30,"dns_fqdn_response_jcmp_tx":0,"dns_ilv_query_jcmp_rx":0,"dns_ilv_query_jcmp_tx":0,"dns_ilv_response_jcmp_rx":0,"dns_ilv_response_jcmp_tx":0,"router_request_jcmp_rx":30,"router_request_jcmp_tx":30,"router_response_jcmp_rx":30,"router_response_jcmp_tx":30}
+INFO;0x0000000000000006;1735769383684946;close_underlay_socket(): successfully left network: ff02:0:0:5d73::6
+INFO;0x0000000000000006;1735769383684978;close_underlay_socket(): successfully left network: ff02:0:0:5d73::7
+INFO;0x0000000000000006;1735769383684990;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000006;1735769383685001;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000007;1735769384123576;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000007;1735769384123583;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000007;1735769384123732;PCB;8;{"start_time":1735769225125501,"ready_time":1735769225127987,"finish_time":1735769384123728,"data_request_rx":0,"data_request_tx":0,"data_request_forward_rx":23566,"data_request_forward_tx":23566,"nd_solicitation_jcmp_rx":30,"nd_solicitation_jcmp_tx":30,"nd_advertisement_jcmp_rx":30,"nd_advertisement_jcmp_tx":30,"dns_fqdn_query_jcmp_rx":30,"dns_fqdn_query_jcmp_tx":0,"dns_fqdn_response_jcmp_rx":30,"dns_fqdn_response_jcmp_tx":0,"dns_ilv_query_jcmp_rx":0,"dns_ilv_query_jcmp_tx":0,"dns_ilv_response_jcmp_rx":0,"dns_ilv_response_jcmp_tx":0,"router_request_jcmp_rx":30,"router_request_jcmp_tx":30,"router_response_jcmp_rx":30,"router_response_jcmp_tx":30}
+INFO;0x0000000000000007;1735769384125185;close_underlay_socket(): successfully left network: ff02:0:0:5d73::7
+INFO;0x0000000000000007;1735769384125221;close_underlay_socket(): successfully left network: ff02:0:0:5d73::8
+INFO;0x0000000000000007;1735769384125233;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000007;1735769384125260;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000008;1735769384650120;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000008;1735769384650171;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000008;1735769384650258;PCB;8;{"start_time":1735769225168976,"ready_time":1735769225171624,"finish_time":1735769384650253,"data_request_rx":0,"data_request_tx":0,"data_request_forward_rx":22555,"data_request_forward_tx":22555,"nd_solicitation_jcmp_rx":30,"nd_solicitation_jcmp_tx":31,"nd_advertisement_jcmp_rx":31,"nd_advertisement_jcmp_tx":30,"dns_fqdn_query_jcmp_rx":30,"dns_fqdn_query_jcmp_tx":0,"dns_fqdn_response_jcmp_rx":30,"dns_fqdn_response_jcmp_tx":0,"dns_ilv_query_jcmp_rx":0,"dns_ilv_query_jcmp_tx":0,"dns_ilv_response_jcmp_rx":0,"dns_ilv_response_jcmp_tx":0,"router_request_jcmp_rx":30,"router_request_jcmp_tx":0,"router_response_jcmp_rx":0,"router_response_jcmp_tx":30}
+INFO;0x0000000000000008;1735769384651693;close_underlay_socket(): successfully left network: ff02:0:0:5d73::8
+INFO;0x0000000000000008;1735769384651716;close_underlay_socket(): successfully left network: ff02:0:0:5d73::9
+INFO;0x0000000000000008;1735769384651726;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000008;1735769384651733;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000009;1735769385155186;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000009;1735769385155217;PCB;8;{"start_time":1735769225017730,"ready_time":1735769225020130,"finish_time":1735769385155213,"data_request_rx":0,"data_request_tx":26550,"data_request_forward_rx":0,"data_request_forward_tx":0,"nd_solicitation_jcmp_rx":0,"nd_solicitation_jcmp_tx":30,"nd_advertisement_jcmp_rx":30,"nd_advertisement_jcmp_tx":0,"dns_fqdn_query_jcmp_rx":0,"dns_fqdn_query_jcmp_tx":30,"dns_fqdn_response_jcmp_rx":30,"dns_fqdn_response_jcmp_tx":0,"dns_ilv_query_jcmp_rx":0,"dns_ilv_query_jcmp_tx":0,"dns_ilv_response_jcmp_rx":0,"dns_ilv_response_jcmp_tx":0,"router_request_jcmp_rx":0,"router_request_jcmp_tx":30,"router_response_jcmp_rx":30,"router_response_jcmp_tx":0}
+INFO;0x0000000000000009;1735769385155228;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000009;1735769385156612;close_underlay_socket(): successfully left network: ff02:0:0:5d73::1
+INFO;0x0000000000000009;1735769385156636;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000009;1735769385156647;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5d73:5d73
+INFO;0x000000000000000A;1735769385680845;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x000000000000000A;1735769385680880;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x000000000000000A;1735769385680995;PCB;8;{"start_time":1735769225091731,"ready_time":1735769225094768,"finish_time":1735769385680991,"data_request_rx":19322,"data_request_tx":0,"data_request_forward_rx":0,"data_request_forward_tx":0,"nd_solicitation_jcmp_rx":31,"nd_solicitation_jcmp_tx":0,"nd_advertisement_jcmp_rx":0,"nd_advertisement_jcmp_tx":31,"dns_fqdn_query_jcmp_rx":30,"dns_fqdn_query_jcmp_tx":0,"dns_fqdn_response_jcmp_rx":0,"dns_fqdn_response_jcmp_tx":30,"dns_ilv_query_jcmp_rx":0,"dns_ilv_query_jcmp_tx":0,"dns_ilv_response_jcmp_rx":0,"dns_ilv_response_jcmp_tx":0,"router_request_jcmp_rx":0,"router_request_jcmp_tx":0,"router_response_jcmp_rx":0,"router_response_jcmp_tx":0}
+INFO;0x000000000000000A;1735769385682335;close_underlay_socket(): successfully left network: ff02:0:0:5d73::9
+INFO;0x000000000000000A;1735769385682357;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5353:5353
+INFO;0x000000000000000A;1735769385682369;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5d73:5d73
+^C** - ctrl+c received, exiting
+open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+[2J[1;1H
+INFO;0x0000000000000002;1735769568680797;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::2
+INFO;0x0000000000000002;1735769568680827;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::3
+INFO;0x0000000000000002;1735769568680834;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000002;1735769568680839;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000002;1735769568680851;ILNP layer running.
+INFO;0x0000000000000008;1735769570675982;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::8
+INFO;0x0000000000000008;1735769570676017;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::9
+INFO;0x0000000000000008;1735769570676025;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000008;1735769570676030;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000008;1735769570676045;ILNP layer running.
+INFO;0x0000000000000004;1735769571205771;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::5
+INFO;0x0000000000000004;1735769571207253;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::4
+INFO;0x0000000000000004;1735769571207281;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000004;1735769571207302;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000004;1735769571207327;ILNP layer running.
+INFO;0x0000000000000003;1735769571212641;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::3
+INFO;0x0000000000000003;1735769571212728;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::4
+INFO;0x0000000000000003;1735769571212771;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000003;1735769571212811;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000003;1735769571212853;ILNP layer running.
+INFO;0x0000000000000001;1735769571238771;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::2
+INFO;0x0000000000000001;1735769571238836;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::1
+INFO;0x0000000000000001;1735769571238867;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000001;1735769571238887;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000001;1735769571238917;ILNP layer running.
+INFO;0x0000000000000007;1735769571401999;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::8
+INFO;0x0000000000000007;1735769571402051;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::7
+INFO;0x0000000000000007;1735769571402062;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000007;1735769571402072;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000007;1735769571402089;ILNP layer running.
+INFO;0x000000000000000A;1735769571410888;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::1
+INFO;0x000000000000000A;1735769571411096;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5353:5353
+INFO;0x000000000000000A;1735769571411180;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+INFO;0x000000000000000A;1735769571411254;ILNP layer running.
+INFO;0x0000000000000009;1735769571417546;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::9
+INFO;0x0000000000000009;1735769571417735;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::a
+INFO;0x0000000000000009;1735769571417801;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000009;1735769571417860;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000009;1735769571417920;ILNP layer running.
+INFO;0x000000000000000B;1735769571446446;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::a
+INFO;0x000000000000000B;1735769571446570;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5353:5353
+INFO;0x000000000000000B;1735769571446659;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+INFO;0x000000000000000B;1735769571446735;ILNP layer running.
+INFO;0x0000000000000005;1735769571454290;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::6
+INFO;0x0000000000000005;1735769571454392;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::5
+INFO;0x0000000000000005;1735769571454452;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000005;1735769571454497;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000005;1735769571454546;ILNP layer running.
+INFO;0x0000000000000006;1735769571474552;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::6
+INFO;0x0000000000000006;1735769571474743;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::7
+INFO;0x0000000000000006;1735769571474821;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000006;1735769571474883;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000006;1735769571474952;ILNP layer running.
+INFO;0x0000000000000001;1735769726811256;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000001;1735769726811337;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000001;1735769726811681;PCB;9;{"start_time":1735769571236360,"ready_time":1735769571238946,"finish_time":1735769726811666,"data_request_rx":0,"data_request_tx":0,"data_request_forward_rx":26546,"data_request_forward_tx":26546,"nd_solicitation_jcmp_rx":30,"nd_solicitation_jcmp_tx":30,"nd_advertisement_jcmp_rx":30,"nd_advertisement_jcmp_tx":30,"dns_fqdn_query_jcmp_rx":30,"dns_fqdn_query_jcmp_tx":0,"dns_fqdn_response_jcmp_rx":30,"dns_fqdn_response_jcmp_tx":0,"dns_ilv_query_jcmp_rx":0,"dns_ilv_query_jcmp_tx":0,"dns_ilv_response_jcmp_rx":0,"dns_ilv_response_jcmp_tx":0,"router_request_jcmp_rx":30,"router_request_jcmp_tx":30,"router_response_jcmp_rx":30,"router_response_jcmp_tx":30}
+INFO;0x0000000000000001;1735769726817118;close_underlay_socket(): successfully left network: ff02:0:0:5d73::1
+INFO;0x0000000000000001;1735769726817504;close_underlay_socket(): successfully left network: ff02:0:0:5d73::2
+INFO;0x0000000000000001;1735769726817811;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000001;1735769726818046;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000002;1735769727355535;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000002;1735769727355590;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000002;1735769727355817;PCB;9;{"start_time":1735769568678344,"ready_time":1735769568680858,"finish_time":1735769727355813,"data_request_rx":0,"data_request_tx":0,"data_request_forward_rx":26008,"data_request_forward_tx":26008,"nd_solicitation_jcmp_rx":30,"nd_solicitation_jcmp_tx":30,"nd_advertisement_jcmp_rx":30,"nd_advertisement_jcmp_tx":30,"dns_fqdn_query_jcmp_rx":30,"dns_fqdn_query_jcmp_tx":0,"dns_fqdn_response_jcmp_rx":30,"dns_fqdn_response_jcmp_tx":0,"dns_ilv_query_jcmp_rx":0,"dns_ilv_query_jcmp_tx":0,"dns_ilv_response_jcmp_rx":0,"dns_ilv_response_jcmp_tx":0,"router_request_jcmp_rx":30,"router_request_jcmp_tx":30,"router_response_jcmp_rx":30,"router_response_jcmp_tx":30}
+INFO;0x0000000000000002;1735769727357220;close_underlay_socket(): successfully left network: ff02:0:0:5d73::3
+INFO;0x0000000000000002;1735769727357345;close_underlay_socket(): successfully left network: ff02:0:0:5d73::2
+INFO;0x0000000000000002;1735769727357430;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000002;1735769727357497;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000003;1735769727859532;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000003;1735769727859540;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000003;1735769727859706;PCB;9;{"start_time":1735769571210419,"ready_time":1735769571212892,"finish_time":1735769727859701,"data_request_rx":0,"data_request_tx":0,"data_request_forward_rx":25376,"data_request_forward_tx":25376,"nd_solicitation_jcmp_rx":30,"nd_solicitation_jcmp_tx":32,"nd_advertisement_jcmp_rx":32,"nd_advertisement_jcmp_tx":30,"dns_fqdn_query_jcmp_rx":30,"dns_fqdn_query_jcmp_tx":0,"dns_fqdn_response_jcmp_rx":30,"dns_fqdn_response_jcmp_tx":0,"dns_ilv_query_jcmp_rx":0,"dns_ilv_query_jcmp_tx":0,"dns_ilv_response_jcmp_rx":0,"dns_ilv_response_jcmp_tx":0,"router_request_jcmp_rx":30,"router_request_jcmp_tx":30,"router_response_jcmp_rx":30,"router_response_jcmp_tx":30}
+INFO;0x0000000000000003;1735769727861209;close_underlay_socket(): successfully left network: ff02:0:0:5d73::3
+INFO;0x0000000000000003;1735769727861257;close_underlay_socket(): successfully left network: ff02:0:0:5d73::4
+INFO;0x0000000000000003;1735769727861273;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000003;1735769727861286;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000004;1735769728401102;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000004;1735769728401128;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000004;1735769728401257;PCB;9;{"start_time":1735769571203381,"ready_time":1735769571207373,"finish_time":1735769728401253,"data_request_rx":0,"data_request_tx":0,"data_request_forward_rx":24046,"data_request_forward_tx":24046,"nd_solicitation_jcmp_rx":32,"nd_solicitation_jcmp_tx":30,"nd_advertisement_jcmp_rx":30,"nd_advertisement_jcmp_tx":32,"dns_fqdn_query_jcmp_rx":30,"dns_fqdn_query_jcmp_tx":0,"dns_fqdn_response_jcmp_rx":30,"dns_fqdn_response_jcmp_tx":0,"dns_ilv_query_jcmp_rx":0,"dns_ilv_query_jcmp_tx":0,"dns_ilv_response_jcmp_rx":0,"dns_ilv_response_jcmp_tx":0,"router_request_jcmp_rx":30,"router_request_jcmp_tx":30,"router_response_jcmp_rx":30,"router_response_jcmp_tx":30}
+INFO;0x0000000000000004;1735769728402648;close_underlay_socket(): successfully left network: ff02:0:0:5d73::4
+INFO;0x0000000000000004;1735769728402719;close_underlay_socket(): successfully left network: ff02:0:0:5d73::5
+INFO;0x0000000000000004;1735769728402769;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000004;1735769728402880;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000005;1735769728942222;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000005;1735769728942264;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000005;1735769728942354;PCB;9;{"start_time":1735769571452085,"ready_time":1735769571454611,"finish_time":1735769728942350,"data_request_rx":0,"data_request_tx":0,"data_request_forward_rx":23650,"data_request_forward_tx":23650,"nd_solicitation_jcmp_rx":30,"nd_solicitation_jcmp_tx":30,"nd_advertisement_jcmp_rx":30,"nd_advertisement_jcmp_tx":30,"dns_fqdn_query_jcmp_rx":30,"dns_fqdn_query_jcmp_tx":0,"dns_fqdn_response_jcmp_rx":30,"dns_fqdn_response_jcmp_tx":0,"dns_ilv_query_jcmp_rx":0,"dns_ilv_query_jcmp_tx":0,"dns_ilv_response_jcmp_rx":0,"dns_ilv_response_jcmp_tx":0,"router_request_jcmp_rx":30,"router_request_jcmp_tx":30,"router_response_jcmp_rx":30,"router_response_jcmp_tx":30}
+INFO;0x0000000000000005;1735769728943672;close_underlay_socket(): successfully left network: ff02:0:0:5d73::5
+INFO;0x0000000000000005;1735769728943706;close_underlay_socket(): successfully left network: ff02:0:0:5d73::6
+INFO;0x0000000000000005;1735769728943717;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000005;1735769728943731;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000006;1735769729445357;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000006;1735769729445349;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000006;1735769729445495;PCB;9;{"start_time":1735769571472384,"ready_time":1735769571475034,"finish_time":1735769729445491,"data_request_rx":0,"data_request_tx":0,"data_request_forward_rx":23195,"data_request_forward_tx":23195,"nd_solicitation_jcmp_rx":30,"nd_solicitation_jcmp_tx":30,"nd_advertisement_jcmp_rx":30,"nd_advertisement_jcmp_tx":30,"dns_fqdn_query_jcmp_rx":30,"dns_fqdn_query_jcmp_tx":0,"dns_fqdn_response_jcmp_rx":30,"dns_fqdn_response_jcmp_tx":0,"dns_ilv_query_jcmp_rx":0,"dns_ilv_query_jcmp_tx":0,"dns_ilv_response_jcmp_rx":0,"dns_ilv_response_jcmp_tx":0,"router_request_jcmp_rx":30,"router_request_jcmp_tx":30,"router_response_jcmp_rx":30,"router_response_jcmp_tx":30}
+INFO;0x0000000000000006;1735769729446917;close_underlay_socket(): successfully left network: ff02:0:0:5d73::6
+INFO;0x0000000000000006;1735769729446976;close_underlay_socket(): successfully left network: ff02:0:0:5d73::7
+INFO;0x0000000000000006;1735769729447016;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000006;1735769729447057;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000007;1735769729950245;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000007;1735769729950237;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000007;1735769729950379;PCB;9;{"start_time":1735769571399705,"ready_time":1735769571402096,"finish_time":1735769729950374,"data_request_rx":0,"data_request_tx":0,"data_request_forward_rx":22679,"data_request_forward_tx":22679,"nd_solicitation_jcmp_rx":30,"nd_solicitation_jcmp_tx":30,"nd_advertisement_jcmp_rx":30,"nd_advertisement_jcmp_tx":30,"dns_fqdn_query_jcmp_rx":30,"dns_fqdn_query_jcmp_tx":0,"dns_fqdn_response_jcmp_rx":30,"dns_fqdn_response_jcmp_tx":0,"dns_ilv_query_jcmp_rx":0,"dns_ilv_query_jcmp_tx":0,"dns_ilv_response_jcmp_rx":0,"dns_ilv_response_jcmp_tx":0,"router_request_jcmp_rx":30,"router_request_jcmp_tx":30,"router_response_jcmp_rx":30,"router_response_jcmp_tx":30}
+INFO;0x0000000000000007;1735769729951791;close_underlay_socket(): successfully left network: ff02:0:0:5d73::7
+INFO;0x0000000000000007;1735769729951826;close_underlay_socket(): successfully left network: ff02:0:0:5d73::8
+INFO;0x0000000000000007;1735769729951840;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000007;1735769729951850;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000008;1735769730499422;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000008;1735769730499431;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000008;1735769730499551;PCB;9;{"start_time":1735769570673582,"ready_time":1735769570676051,"finish_time":1735769730499547,"data_request_rx":0,"data_request_tx":0,"data_request_forward_rx":22357,"data_request_forward_tx":22357,"nd_solicitation_jcmp_rx":30,"nd_solicitation_jcmp_tx":30,"nd_advertisement_jcmp_rx":30,"nd_advertisement_jcmp_tx":30,"dns_fqdn_query_jcmp_rx":30,"dns_fqdn_query_jcmp_tx":0,"dns_fqdn_response_jcmp_rx":30,"dns_fqdn_response_jcmp_tx":0,"dns_ilv_query_jcmp_rx":0,"dns_ilv_query_jcmp_tx":0,"dns_ilv_response_jcmp_rx":0,"dns_ilv_response_jcmp_tx":0,"router_request_jcmp_rx":30,"router_request_jcmp_tx":30,"router_response_jcmp_rx":30,"router_response_jcmp_tx":30}
+INFO;0x0000000000000008;1735769730500944;close_underlay_socket(): successfully left network: ff02:0:0:5d73::9
+INFO;0x0000000000000008;1735769730501025;close_underlay_socket(): successfully left network: ff02:0:0:5d73::8
+INFO;0x0000000000000008;1735769730501076;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000008;1735769730501147;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000009;1735769730957385;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000009;1735769730957366;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000009;1735769730957528;PCB;9;{"start_time":1735769571415348,"ready_time":1735769571417981,"finish_time":1735769730957524,"data_request_rx":0,"data_request_tx":0,"data_request_forward_rx":21710,"data_request_forward_tx":21710,"nd_solicitation_jcmp_rx":30,"nd_solicitation_jcmp_tx":30,"nd_advertisement_jcmp_rx":30,"nd_advertisement_jcmp_tx":30,"dns_fqdn_query_jcmp_rx":30,"dns_fqdn_query_jcmp_tx":0,"dns_fqdn_response_jcmp_rx":30,"dns_fqdn_response_jcmp_tx":0,"dns_ilv_query_jcmp_rx":0,"dns_ilv_query_jcmp_tx":0,"dns_ilv_response_jcmp_rx":0,"dns_ilv_response_jcmp_tx":0,"router_request_jcmp_rx":30,"router_request_jcmp_tx":0,"router_response_jcmp_rx":0,"router_response_jcmp_tx":30}
+INFO;0x0000000000000009;1735769730958891;close_underlay_socket(): successfully left network: ff02:0:0:5d73::a
+INFO;0x0000000000000009;1735769730958958;close_underlay_socket(): successfully left network: ff02:0:0:5d73::9
+INFO;0x0000000000000009;1735769730958975;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000009;1735769730958985;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5d73:5d73
+INFO;0x000000000000000A;1735769731510785;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x000000000000000A;1735769731510822;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x000000000000000A;1735769731510816;PCB;9;{"start_time":1735769571405734,"ready_time":1735769571411318,"finish_time":1735769731510813,"data_request_rx":0,"data_request_tx":26550,"data_request_forward_rx":0,"data_request_forward_tx":0,"nd_solicitation_jcmp_rx":0,"nd_solicitation_jcmp_tx":30,"nd_advertisement_jcmp_rx":30,"nd_advertisement_jcmp_tx":0,"dns_fqdn_query_jcmp_rx":0,"dns_fqdn_query_jcmp_tx":30,"dns_fqdn_response_jcmp_rx":30,"dns_fqdn_response_jcmp_tx":0,"dns_ilv_query_jcmp_rx":0,"dns_ilv_query_jcmp_tx":0,"dns_ilv_response_jcmp_rx":0,"dns_ilv_response_jcmp_tx":0,"router_request_jcmp_rx":0,"router_request_jcmp_tx":30,"router_response_jcmp_rx":30,"router_response_jcmp_tx":0}
+INFO;0x000000000000000A;1735769731512255;close_underlay_socket(): successfully left network: ff02:0:0:5d73::1
+INFO;0x000000000000000A;1735769731512280;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5353:5353
+INFO;0x000000000000000A;1735769731512288;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5d73:5d73
+INFO;0x000000000000000B;1735769732044384;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x000000000000000B;1735769732044432;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x000000000000000B;1735769732044538;PCB;9;{"start_time":1735769571444182,"ready_time":1735769571446812,"finish_time":1735769732044535,"data_request_rx":19521,"data_request_tx":0,"data_request_forward_rx":0,"data_request_forward_tx":0,"nd_solicitation_jcmp_rx":30,"nd_solicitation_jcmp_tx":0,"nd_advertisement_jcmp_rx":0,"nd_advertisement_jcmp_tx":30,"dns_fqdn_query_jcmp_rx":30,"dns_fqdn_query_jcmp_tx":0,"dns_fqdn_response_jcmp_rx":0,"dns_fqdn_response_jcmp_tx":30,"dns_ilv_query_jcmp_rx":0,"dns_ilv_query_jcmp_tx":0,"dns_ilv_response_jcmp_rx":0,"dns_ilv_response_jcmp_tx":0,"router_request_jcmp_rx":0,"router_request_jcmp_tx":0,"router_response_jcmp_rx":0,"router_response_jcmp_tx":0}
+INFO;0x000000000000000B;1735769732045959;close_underlay_socket(): successfully left network: ff02:0:0:5d73::a
+INFO;0x000000000000000B;1735769732045980;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5353:5353
+INFO;0x000000000000000B;1735769732045987;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5d73:5d73
+^C** - ctrl+c received, exiting
+open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+[2J[1;1H
+INFO;0x0000000000000003;1735769962898716;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::3
+INFO;0x0000000000000003;1735769962898817;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::4
+INFO;0x0000000000000003;1735769962898846;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000003;1735769962898868;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000003;1735769962898922;ILNP layer running.
+INFO;0x000000000000000C;1735769963103775;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::b
+INFO;0x000000000000000C;1735769963103823;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5353:5353
+INFO;0x000000000000000C;1735769963103834;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+INFO;0x000000000000000C;1735769963103855;ILNP layer running.
+INFO;0x000000000000000B;1735769963517370;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::1
+INFO;0x000000000000000B;1735769963517425;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5353:5353
+INFO;0x000000000000000B;1735769963517440;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+INFO;0x000000000000000B;1735769963517462;ILNP layer running.
+INFO;0x0000000000000002;1735769963638796;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::2
+INFO;0x0000000000000002;1735769963638871;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::3
+INFO;0x0000000000000002;1735769963638916;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000002;1735769963638965;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000002;1735769963639021;ILNP layer running.
+INFO;0x0000000000000004;1735769963771362;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::4
+INFO;0x0000000000000004;1735769963771399;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::5
+INFO;0x0000000000000004;1735769963771407;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000004;1735769963771414;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000004;1735769963771429;ILNP layer running.
+INFO;0x0000000000000006;1735769963794042;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::6
+INFO;0x0000000000000006;1735769963794132;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::7
+INFO;0x0000000000000006;1735769963794190;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000006;1735769963794246;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000006;1735769963794306;ILNP layer running.
+INFO;0x0000000000000009;1735769963850155;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::9
+INFO;0x0000000000000009;1735769963850261;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::a
+INFO;0x0000000000000009;1735769963850310;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000009;1735769963850351;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000009;1735769963850408;ILNP layer running.
+INFO;0x000000000000000A;1735769963933522;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::a
+INFO;0x000000000000000A;1735769963933629;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::b
+INFO;0x000000000000000A;1735769963933706;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5353:5353
+INFO;0x000000000000000A;1735769963933759;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+INFO;0x000000000000000A;1735769963933816;ILNP layer running.
+INFO;0x0000000000000007;1735769963941800;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::8
+INFO;0x0000000000000007;1735769963941903;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::7
+INFO;0x0000000000000007;1735769963941978;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000007;1735769963942040;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000007;1735769963942100;ILNP layer running.
+INFO;0x0000000000000001;1735769964016263;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::1
+INFO;0x0000000000000001;1735769964016551;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::2
+INFO;0x0000000000000001;1735769964016766;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000001;1735769964016910;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000001;1735769964017078;ILNP layer running.
+INFO;0x0000000000000005;1735769964115759;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::5
+INFO;0x0000000000000005;1735769964115932;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::6
+INFO;0x0000000000000005;1735769964116025;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000005;1735769964116097;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000005;1735769964116166;ILNP layer running.
+INFO;0x0000000000000008;1735769964122771;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::9
+INFO;0x0000000000000008;1735769964122944;open_underlay_socket(): succesfully joined: ff02:0:0:5d73::8
+INFO;0x0000000000000008;1735769964123037;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000008;1735769964123070;open_underlay_socket(): succesfully joined: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000008;1735769964123272;ILNP layer running.
+INFO;0x0000000000000001;1735770124960534;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000001;1735770124960549;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000001;1735770124960750;PCB;10;{"start_time":1735769964006078,"ready_time":1735769964017341,"finish_time":1735770124960742,"data_request_rx":0,"data_request_tx":0,"data_request_forward_rx":26550,"data_request_forward_tx":26550,"nd_solicitation_jcmp_rx":30,"nd_solicitation_jcmp_tx":30,"nd_advertisement_jcmp_rx":30,"nd_advertisement_jcmp_tx":30,"dns_fqdn_query_jcmp_rx":30,"dns_fqdn_query_jcmp_tx":0,"dns_fqdn_response_jcmp_rx":30,"dns_fqdn_response_jcmp_tx":0,"dns_ilv_query_jcmp_rx":0,"dns_ilv_query_jcmp_tx":0,"dns_ilv_response_jcmp_rx":0,"dns_ilv_response_jcmp_tx":0,"router_request_jcmp_rx":30,"router_request_jcmp_tx":30,"router_response_jcmp_rx":30,"router_response_jcmp_tx":30}
+INFO;0x0000000000000001;1735770124963151;close_underlay_socket(): successfully left network: ff02:0:0:5d73::2
+INFO;0x0000000000000001;1735770124963485;close_underlay_socket(): successfully left network: ff02:0:0:5d73::1
+INFO;0x0000000000000001;1735770124963691;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000001;1735770124963753;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000002;1735770125439458;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000002;1735770125439469;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000002;1735770125439908;PCB;10;{"start_time":1735769963636462,"ready_time":1735769963639074,"finish_time":1735770125439903,"data_request_rx":0,"data_request_tx":0,"data_request_forward_rx":26043,"data_request_forward_tx":26043,"nd_solicitation_jcmp_rx":30,"nd_solicitation_jcmp_tx":30,"nd_advertisement_jcmp_rx":30,"nd_advertisement_jcmp_tx":30,"dns_fqdn_query_jcmp_rx":30,"dns_fqdn_query_jcmp_tx":0,"dns_fqdn_response_jcmp_rx":30,"dns_fqdn_response_jcmp_tx":0,"dns_ilv_query_jcmp_rx":0,"dns_ilv_query_jcmp_tx":0,"dns_ilv_response_jcmp_rx":0,"dns_ilv_response_jcmp_tx":0,"router_request_jcmp_rx":30,"router_request_jcmp_tx":30,"router_response_jcmp_rx":30,"router_response_jcmp_tx":30}
+INFO;0x0000000000000002;1735770125441493;close_underlay_socket(): successfully left network: ff02:0:0:5d73::2
+INFO;0x0000000000000002;1735770125441759;close_underlay_socket(): successfully left network: ff02:0:0:5d73::3
+INFO;0x0000000000000002;1735770125441804;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000002;1735770125441820;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000003;1735770125811834;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000003;1735770125811842;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000003;1735770125811983;PCB;10;{"start_time":1735769962869288,"ready_time":1735769962898955,"finish_time":1735770125811979,"data_request_rx":0,"data_request_tx":0,"data_request_forward_rx":25596,"data_request_forward_tx":25596,"nd_solicitation_jcmp_rx":30,"nd_solicitation_jcmp_tx":32,"nd_advertisement_jcmp_rx":32,"nd_advertisement_jcmp_tx":30,"dns_fqdn_query_jcmp_rx":30,"dns_fqdn_query_jcmp_tx":0,"dns_fqdn_response_jcmp_rx":30,"dns_fqdn_response_jcmp_tx":0,"dns_ilv_query_jcmp_rx":0,"dns_ilv_query_jcmp_tx":0,"dns_ilv_response_jcmp_rx":0,"dns_ilv_response_jcmp_tx":0,"router_request_jcmp_rx":30,"router_request_jcmp_tx":30,"router_response_jcmp_rx":30,"router_response_jcmp_tx":30}
+INFO;0x0000000000000003;1735770125813404;close_underlay_socket(): successfully left network: ff02:0:0:5d73::3
+INFO;0x0000000000000003;1735770125813454;close_underlay_socket(): successfully left network: ff02:0:0:5d73::4
+INFO;0x0000000000000003;1735770125813476;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000003;1735770125813489;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000004;1735770126181261;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000004;1735770126181305;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000004;1735770126181376;PCB;10;{"start_time":1735769963769043,"ready_time":1735769963771436,"finish_time":1735770126181372,"data_request_rx":0,"data_request_tx":0,"data_request_forward_rx":24417,"data_request_forward_tx":24417,"nd_solicitation_jcmp_rx":32,"nd_solicitation_jcmp_tx":32,"nd_advertisement_jcmp_rx":32,"nd_advertisement_jcmp_tx":32,"dns_fqdn_query_jcmp_rx":30,"dns_fqdn_query_jcmp_tx":0,"dns_fqdn_response_jcmp_rx":30,"dns_fqdn_response_jcmp_tx":0,"dns_ilv_query_jcmp_rx":0,"dns_ilv_query_jcmp_tx":0,"dns_ilv_response_jcmp_rx":0,"dns_ilv_response_jcmp_tx":0,"router_request_jcmp_rx":30,"router_request_jcmp_tx":30,"router_response_jcmp_rx":30,"router_response_jcmp_tx":30}
+INFO;0x0000000000000004;1735770126182779;close_underlay_socket(): successfully left network: ff02:0:0:5d73::4
+INFO;0x0000000000000004;1735770126182837;close_underlay_socket(): successfully left network: ff02:0:0:5d73::5
+INFO;0x0000000000000004;1735770126182858;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000004;1735770126182872;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000005;1735770126556502;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000005;1735770126556513;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000005;1735770126556647;PCB;10;{"start_time":1735769964113250,"ready_time":1735769964116228,"finish_time":1735770126556642,"data_request_rx":0,"data_request_tx":0,"data_request_forward_rx":24198,"data_request_forward_tx":24198,"nd_solicitation_jcmp_rx":32,"nd_solicitation_jcmp_tx":30,"nd_advertisement_jcmp_rx":30,"nd_advertisement_jcmp_tx":32,"dns_fqdn_query_jcmp_rx":30,"dns_fqdn_query_jcmp_tx":0,"dns_fqdn_response_jcmp_rx":30,"dns_fqdn_response_jcmp_tx":0,"dns_ilv_query_jcmp_rx":0,"dns_ilv_query_jcmp_tx":0,"dns_ilv_response_jcmp_rx":0,"dns_ilv_response_jcmp_tx":0,"router_request_jcmp_rx":30,"router_request_jcmp_tx":30,"router_response_jcmp_rx":30,"router_response_jcmp_tx":30}
+INFO;0x0000000000000005;1735770126558084;close_underlay_socket(): successfully left network: ff02:0:0:5d73::5
+INFO;0x0000000000000005;1735770126558129;close_underlay_socket(): successfully left network: ff02:0:0:5d73::6
+INFO;0x0000000000000005;1735770126558143;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000005;1735770126558152;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000006;1735770127029528;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000006;1735770127029521;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000006;1735770127029638;PCB;10;{"start_time":1735769963791720,"ready_time":1735769963794356,"finish_time":1735770127029634,"data_request_rx":0,"data_request_tx":0,"data_request_forward_rx":24016,"data_request_forward_tx":24016,"nd_solicitation_jcmp_rx":30,"nd_solicitation_jcmp_tx":30,"nd_advertisement_jcmp_rx":30,"nd_advertisement_jcmp_tx":30,"dns_fqdn_query_jcmp_rx":30,"dns_fqdn_query_jcmp_tx":0,"dns_fqdn_response_jcmp_rx":30,"dns_fqdn_response_jcmp_tx":0,"dns_ilv_query_jcmp_rx":0,"dns_ilv_query_jcmp_tx":0,"dns_ilv_response_jcmp_rx":0,"dns_ilv_response_jcmp_tx":0,"router_request_jcmp_rx":30,"router_request_jcmp_tx":30,"router_response_jcmp_rx":30,"router_response_jcmp_tx":30}
+INFO;0x0000000000000006;1735770127030974;close_underlay_socket(): successfully left network: ff02:0:0:5d73::6
+INFO;0x0000000000000006;1735770127031013;close_underlay_socket(): successfully left network: ff02:0:0:5d73::7
+INFO;0x0000000000000006;1735770127031101;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000006;1735770127031126;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000007;1735770127581052;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000007;1735770127581060;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000007;1735770127581201;PCB;10;{"start_time":1735769963939442,"ready_time":1735769963942182,"finish_time":1735770127581197,"data_request_rx":0,"data_request_tx":0,"data_request_forward_rx":23488,"data_request_forward_tx":23488,"nd_solicitation_jcmp_rx":30,"nd_solicitation_jcmp_tx":30,"nd_advertisement_jcmp_rx":30,"nd_advertisement_jcmp_tx":30,"dns_fqdn_query_jcmp_rx":30,"dns_fqdn_query_jcmp_tx":0,"dns_fqdn_response_jcmp_rx":30,"dns_fqdn_response_jcmp_tx":0,"dns_ilv_query_jcmp_rx":0,"dns_ilv_query_jcmp_tx":0,"dns_ilv_response_jcmp_rx":0,"dns_ilv_response_jcmp_tx":0,"router_request_jcmp_rx":30,"router_request_jcmp_tx":30,"router_response_jcmp_rx":30,"router_response_jcmp_tx":30}
+INFO;0x0000000000000007;1735770127582562;close_underlay_socket(): successfully left network: ff02:0:0:5d73::8
+INFO;0x0000000000000007;1735770127582621;close_underlay_socket(): successfully left network: ff02:0:0:5d73::7
+INFO;0x0000000000000007;1735770127582641;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000007;1735770127582651;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000008;1735770128121064;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000008;1735770128121112;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000008;1735770128121229;PCB;10;{"start_time":1735769964120311,"ready_time":1735769964123353,"finish_time":1735770128121225,"data_request_rx":0,"data_request_tx":0,"data_request_forward_rx":22909,"data_request_forward_tx":22909,"nd_solicitation_jcmp_rx":30,"nd_solicitation_jcmp_tx":31,"nd_advertisement_jcmp_rx":31,"nd_advertisement_jcmp_tx":30,"dns_fqdn_query_jcmp_rx":30,"dns_fqdn_query_jcmp_tx":0,"dns_fqdn_response_jcmp_rx":30,"dns_fqdn_response_jcmp_tx":0,"dns_ilv_query_jcmp_rx":0,"dns_ilv_query_jcmp_tx":0,"dns_ilv_response_jcmp_rx":0,"dns_ilv_response_jcmp_tx":0,"router_request_jcmp_rx":30,"router_request_jcmp_tx":30,"router_response_jcmp_rx":30,"router_response_jcmp_tx":30}
+INFO;0x0000000000000008;1735770128122584;close_underlay_socket(): successfully left network: ff02:0:0:5d73::9
+INFO;0x0000000000000008;1735770128122643;close_underlay_socket(): successfully left network: ff02:0:0:5d73::8
+INFO;0x0000000000000008;1735770128122656;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000008;1735770128122665;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5d73:5d73
+INFO;0x0000000000000009;1735770128686457;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000009;1735770128686495;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x0000000000000009;1735770128686595;PCB;10;{"start_time":1735769963839683,"ready_time":1735769963850500,"finish_time":1735770128686591,"data_request_rx":0,"data_request_tx":0,"data_request_forward_rx":22347,"data_request_forward_tx":22347,"nd_solicitation_jcmp_rx":31,"nd_solicitation_jcmp_tx":32,"nd_advertisement_jcmp_rx":32,"nd_advertisement_jcmp_tx":31,"dns_fqdn_query_jcmp_rx":30,"dns_fqdn_query_jcmp_tx":0,"dns_fqdn_response_jcmp_rx":30,"dns_fqdn_response_jcmp_tx":0,"dns_ilv_query_jcmp_rx":0,"dns_ilv_query_jcmp_tx":0,"dns_ilv_response_jcmp_rx":0,"dns_ilv_response_jcmp_tx":0,"router_request_jcmp_rx":30,"router_request_jcmp_tx":30,"router_response_jcmp_rx":30,"router_response_jcmp_tx":30}
+INFO;0x0000000000000009;1735770128687859;close_underlay_socket(): successfully left network: ff02:0:0:5d73::a
+INFO;0x0000000000000009;1735770128687935;close_underlay_socket(): successfully left network: ff02:0:0:5d73::9
+INFO;0x0000000000000009;1735770128687967;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5353:5353
+INFO;0x0000000000000009;1735770128687995;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5d73:5d73
+INFO;0x000000000000000A;1735770129225182;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x000000000000000A;1735770129225223;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x000000000000000A;1735770129225346;PCB;10;{"start_time":1735769963931117,"ready_time":1735769963933896,"finish_time":1735770129225342,"data_request_rx":0,"data_request_tx":0,"data_request_forward_rx":21319,"data_request_forward_tx":21319,"nd_solicitation_jcmp_rx":32,"nd_solicitation_jcmp_tx":30,"nd_advertisement_jcmp_rx":30,"nd_advertisement_jcmp_tx":32,"dns_fqdn_query_jcmp_rx":30,"dns_fqdn_query_jcmp_tx":0,"dns_fqdn_response_jcmp_rx":30,"dns_fqdn_response_jcmp_tx":0,"dns_ilv_query_jcmp_rx":0,"dns_ilv_query_jcmp_tx":0,"dns_ilv_response_jcmp_rx":0,"dns_ilv_response_jcmp_tx":0,"router_request_jcmp_rx":30,"router_request_jcmp_tx":0,"router_response_jcmp_rx":0,"router_response_jcmp_tx":30}
+INFO;0x000000000000000A;1735770129226737;close_underlay_socket(): successfully left network: ff02:0:0:5d73::a
+INFO;0x000000000000000A;1735770129226761;close_underlay_socket(): successfully left network: ff02:0:0:5d73::b
+INFO;0x000000000000000A;1735770129226778;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5353:5353
+INFO;0x000000000000000A;1735770129226789;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5d73:5d73
+INFO;0x000000000000000B;1735770129685391;PCB;10;{"start_time":1735769963514651,"ready_time":1735769963517536,"finish_time":1735770129685386,"data_request_rx":0,"data_request_tx":26550,"data_request_forward_rx":0,"data_request_forward_tx":0,"nd_solicitation_jcmp_rx":0,"nd_solicitation_jcmp_tx":30,"nd_advertisement_jcmp_rx":30,"nd_advertisement_jcmp_tx":0,"dns_fqdn_query_jcmp_rx":0,"dns_fqdn_query_jcmp_tx":30,"dns_fqdn_response_jcmp_rx":30,"dns_fqdn_response_jcmp_tx":0,"dns_ilv_query_jcmp_rx":0,"dns_ilv_query_jcmp_tx":0,"dns_ilv_response_jcmp_rx":0,"dns_ilv_response_jcmp_tx":0,"router_request_jcmp_rx":0,"router_request_jcmp_tx":30,"router_response_jcmp_rx":30,"router_response_jcmp_tx":0}
+INFO;0x000000000000000B;1735770129685388;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x000000000000000B;1735770129685395;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x000000000000000B;1735770129686702;close_underlay_socket(): successfully left network: ff02:0:0:5d73::1
+INFO;0x000000000000000B;1735770129686732;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5353:5353
+INFO;0x000000000000000B;1735770129686741;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5d73:5d73
+INFO;0x000000000000000C;1735770130224366;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x000000000000000C;1735770130224400;ctrl+c received, exiting the ilnp receiver handler
+INFO;0x000000000000000C;1735770130224508;PCB;10;{"start_time":1735769963099818,"ready_time":1735769963103865,"finish_time":1735770130224504,"data_request_rx":19829,"data_request_tx":0,"data_request_forward_rx":0,"data_request_forward_tx":0,"nd_solicitation_jcmp_rx":30,"nd_solicitation_jcmp_tx":0,"nd_advertisement_jcmp_rx":0,"nd_advertisement_jcmp_tx":30,"dns_fqdn_query_jcmp_rx":30,"dns_fqdn_query_jcmp_tx":0,"dns_fqdn_response_jcmp_rx":0,"dns_fqdn_response_jcmp_tx":30,"dns_ilv_query_jcmp_rx":0,"dns_ilv_query_jcmp_tx":0,"dns_ilv_response_jcmp_rx":0,"dns_ilv_response_jcmp_tx":0,"router_request_jcmp_rx":0,"router_request_jcmp_tx":0,"router_response_jcmp_rx":0,"router_response_jcmp_tx":0}
+INFO;0x000000000000000C;1735770130225943;close_underlay_socket(): successfully left network: ff02:0:0:5d73::b
+INFO;0x000000000000000C;1735770130225968;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5353:5353
+INFO;0x000000000000000C;1735770130225981;close_underlay_socket(): successfully left network: ff02::5d73:0:0:5d73:5d73
+^C** - ctrl+c received, exiting

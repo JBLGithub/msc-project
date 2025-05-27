@@ -1,0 +1,13 @@
+#!/bin/bash
+
+if [[ -z "$1" ]]; then
+  echo "Usage: $0 <config_ng>"
+  exit 1
+fi
+
+USER_ID=$(id -u)
+GROUP_ID=$(id -g)
+
+podman rm node$1
+podman build -t emulator_image .
+podman run -it --name node$1 --network host --user $USER_ID:$GROUP_ID -v $PWD/config/Config$1.toml:/app/config/Config.toml:ro emulator_image

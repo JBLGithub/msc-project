@@ -1,0 +1,6 @@
+#!/bin/bash
+
+for i in $(seq -w 1 200); do
+    user_count=$(ssh -o ConnectTimeout=5 pc7-$i-l "who | wc -l")
+    echo "pc7-$i-l has $user_count users"
+done

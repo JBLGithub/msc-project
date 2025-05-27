@@ -1,0 +1,333 @@
+#!/usr/bin/python
+
+import time
+import yaml
+import os
+import glob
+import subprocess
+import socket
+import sys
+from enum import Enum
+
+class Mode(Enum):
+    T0 = ""
+    T1 = ">> metrics/packet_path_discovery.txt"
+    T2 = ">> metrics/packet_overhead_single.txt"
+    T3 = ">> metrics/packet_overhead_flow.txt"
+    T4 = ">> metrics/packet_throughput_single_machine.txt"
+    T5 = ">> metrics/packet_throughput_multi_machine.txt"
+    T6 = ">> metrics/packet_latency_rtt_single_machine.txt"
+    T7 = ">> metrics/packet_latency_rtt_multi_machine.txt"
+    A8 = ">> metrics/sensor_application.txt"
+
+mode = Mode.T0
+hosts = []
+
+def help():
+    print("HELP:  deployment/deploy --help")
+    print("USAGE: deployment/deploy")
+    print("   -t T1 (packet_path_discovery)")
+    print("   -t T2 (packet_overhead_single)")
+    print("   -t T3 (packet_overhead_flow)")
+    print("   -t T4 (packet_throughput_single_machine)")
+    print("   -t T5 (packet_throughput_multi_machine)")
+    print("   -t T6 (packet_latency_rtt_single_machine)")
+    print("   -t T7 (packet_latency_rtt_multi_machine)")
+    print("   -t A8 (sensor_application)")
+    print("   -f <host file> (e.g. hosts.txt containing 'pc7-013-l')")
+
+
+def handle_arguments():
+    global mode
+    global hosts
+
+    if len(sys.argv) == 1:
+        return
+    
+    if sys.argv[1] == "--help":
+        help()
+        exit(0)
+    
+    if len(sys.argv) % 2 != 1:
+        help()
+        exit(1)
+
+    for i in range(1, len(sys.argv), 2):
+        if sys.argv[i] == "-t":
+            if mode != Mode.T0:
+                help()
+                exit(1)
+            if sys.argv[i+1] in Mode.__members__:
+                mode = Mode[sys.argv[i+1]]
+            else:
+                help()
+                exit(1)
+        
+        elif sys.argv[i] == "-f":
+            with open(sys.argv[i+1], "r") as file:
+                for line in file.readlines():
+                    hosts.append(line.strip())
+
+        else:
+            help()
+            exit(1)
+
+
+def to_64bit_hex(n):
+    return f"0x{n:016x}"
+
+def get_nodes():
+    # open topology
+    with open("deployment/topology.yaml", "r") as file:
+        config = yaml.safe_load(file)
+
+    # get nodes
+    nodes = {}
+    nb_routers = config.get("routers", 0)
+    nb_nodes = config.get("nodes", 0)
+
+    for i in range(1, nb_routers+1):
+        nodes[f"router{i}"] = {
+            "router": True,
+            "networks": []
+        }
+
+    for i in range(1, nb_nodes+1):
+        nodes[f"node{i}"] = {
+            "router": False,
+            "networks": []
+        }
+
+    return nodes
+
+def create_networks(nodes):
+    # open topology
+    with open("deployment/topology.yaml", "r") as file:
+        config = yaml.safe_load(file)
+
+    config_links = config.get("links", [])
+    for i, config_link in enumerate(config_links, start=1):
+        nodes_to_connect = config_link.get("network")
+        for ntc in nodes_to_connect:
+            nodes[ntc]['networks'].append(i)
+
+def create_configs(nodes):
+    # delete current config files
+    for file in glob.glob("config/*.toml"):
+        os.remove(file)
+        print(f"Deleted: {file}")
+
+    # get settings
+    with open("deployment/settings.toml", "r") as file:
+        settings = file.read()
+
+    # create logger
+    with open(f"config/Logger.toml", "w") as file:
+        
+        file.write("[app]\n")
+        file.write("logger=true\n")
+        file.write("test_convergence=false\n")
+        file.write("test_single=false\n")
+        file.write("test_flow=false\n")
+        file.write("test_throughput=false\n")
+        file.write("test_latency=false\n")
+        file.write("sensor_application=false\n")
+
+        file.write("\n[node]\n")
+        file.write(f"router=false\n")
+        file.write(f"networks=[]\n")
+        file.write(f"nid=0x0000000000000000\n")
+        file.write(f"name=\"logger\"\n\n")
+        file.write(settings)
+
+    # create configs
+    for i, (node_name, node) in enumerate(nodes.items(), start=1):
+        with open(f"config/Config{i}.toml", "w") as file:
+            
+            file.write("[app]\n")
+            file.write("logger=false\n")
+
+            if mode == Mode.T0:
+                file.write("test_convergence=false\n")
+                file.write("test_single=false\n")
+                file.write("test_flow=false\n")
+                file.write("test_throughput=false\n")
+                file.write("test_latency=false\n")
+                file.write("sensor_application=false\n")
+
+            elif mode == Mode.T1:
+                if node_name == "node1":
+                    file.write("test_convergence=true\n")
+                else:
+                    file.write("test_convergence=false\n")
+                file.write("test_single=false\n")
+                file.write("test_flow=false\n")
+                file.write("test_throughput=false\n")
+                file.write("test_latency=false\n")
+                file.write("sensor_application=false\n")
+            elif mode == Mode.T2:
+                file.write("test_convergence=false\n")
+                if node_name == "node1":
+                    file.write("test_single=true\n")
+                else:
+                    file.write("test_single=false\n")
+                file.write("test_flow=false\n")
+                file.write("test_throughput=false\n")
+                file.write("test_latency=false\n")
+                file.write("sensor_application=false\n")
+            elif mode == Mode.T3:
+                file.write("test_convergence=false\n")
+                file.write("test_single=false\n")
+                if node_name == "node1":
+                    file.write("test_flow=true\n")
+                else:
+                    file.write("test_flow=false\n")
+                file.write("test_throughput=false\n")
+                file.write("test_latency=false\n")
+                file.write("sensor_application=false\n")
+            elif mode == Mode.T4 or mode == Mode.T5:
+                file.write("test_convergence=false\n")
+                file.write("test_single=false\n")
+                file.write("test_flow=false\n")
+                if node_name == "node1" or node_name == "node2":
+                    file.write("test_throughput=true\n")
+                else:
+                    file.write("test_throughput=false\n")
+                file.write("test_latency=false\n")
+                file.write("sensor_application=false\n")
+            elif mode == Mode.T6 or mode == Mode.T7:
+                file.write("test_convergence=false\n")
+                file.write("test_single=false\n")
+                file.write("test_flow=false\n")
+                file.write("test_throughput=false\n")
+                if node_name == "node1" or node_name == "node2":
+                    file.write("test_latency=true\n")
+                else:
+                    file.write("test_latency=false\n")
+                file.write("sensor_application=false\n")
+            elif mode == Mode.A8:
+                file.write("test_convergence=false\n")
+                file.write("test_single=false\n")
+                file.write("test_flow=false\n")
+                file.write("test_throughput=false\n")
+                file.write("test_latency=false\n")
+                if "node" in node_name:
+                    file.write("sensor_application=true\n")
+                else:
+                    file.write("sensor_application=false\n")
+
+            file.write("\n[node]\n")
+            if node['router']:
+                file.write(f"router=true\n")
+            else:
+                file.write(f"router=false\n")
+            file.write(f"networks={node['networks']}\n")
+            file.write(f"nid={to_64bit_hex(i)}\n")
+            file.write(f"name=\"{node_name}\"\n\n")
+            file.write(settings)
+
+
+def find_hosts(nb_hosts_required):
+    global hosts
+
+    if len(hosts) == 0 and mode == Mode.T5:
+        print("host file required for this test")
+        help()
+        exit(1)
+    
+    if len(hosts) == 0:
+        current_host = socket.gethostname()
+        hosts = [current_host] * (nb_hosts_required+1)
+    
+    if len(hosts) != (nb_hosts_required+1):
+        print(f"wrong amount of hosts: {len(hosts)}/{nb_hosts_required}")
+        exit(1)
+
+    # check hosts can be reached
+    for host in hosts:
+        find_pc_command = ["ping", "-c", "1", host]
+        result = subprocess.run(find_pc_command, capture_output=True, text=True)
+        if result.returncode != 0:
+            print(f"host {host} could not be reached")
+            exit(1)
+        
+
+
+def build_podman_image():
+    print("***********************************************************************************************")
+    print("building ilnp node podman image...")
+
+    command = ["podman", "build", "-t", "ilnp_node_image", "."]
+    result = subprocess.run(command, capture_output=True, text=True)
+    if result.returncode != 0:
+        print(result.stderr)
+        return
+
+    tar_file = "deployment/ilnp_node_image.tar"
+    if os.path.exists(tar_file):
+        os.remove(tar_file)
+   
+    command = ["podman", "save", "-o", tar_file, "ilnp_node_image"]
+    result = subprocess.run(command, capture_output=True, text=True)
+    if result.returncode != 0:
+        print(result.stderr)
+        return
+    
+    print("image sucessfully built.")
+    print("***********************************************************************************************")
+    
+def deploy_nodes():
+    nodes = get_nodes()
+    create_networks(nodes)
+    create_configs(nodes)
+    find_hosts(len(nodes))
+
+    # deploy logger
+    log_file = mode.value
+    local_pwd = os.getcwd()
+    command = [
+        "ssh", hosts[0], 
+        f"tmux new-session -s ilnplogger -d 'cd {local_pwd} && podman load -i deployment/ilnp_node_image.tar && podman run -it --name logger --network host --user $(id -u):$(id -g) -v $PWD/config/Logger.toml:/app/config/Config.toml:ro ilnp_node_image {log_file}'"
+    ]
+    result_logger = subprocess.run(command, capture_output=True, text=True)
+    print(f"****************************************** Logger ******************************************")
+    print("STDOUT: " + result_logger.stdout)
+    print("STDERR: " + result_logger.stderr)
+    print(f"CONNECT LOGGER: ssh -t {hosts[0]} \"tmux attach-session -t ilnplogger\"")
+    print("**********************************************************************************************")
+
+    # give time for logger to be deployed so we can receive startup logs
+    time.sleep(20)
+
+    # deploy nodes
+    for i, (node_name, node) in enumerate(nodes.items(), start=1):
+
+        log_file = ""
+        if mode == Mode.A8 and (node_name == "node1" or node_name == "node2"):
+            log_file = mode.value
+
+        command = [
+            "ssh", hosts[i], 
+            f"tmux new-session -s ilnp{node_name} -d 'cd {local_pwd} && podman load -i deployment/ilnp_node_image.tar && podman run -it --name {node_name} --network host --user $(id -u):$(id -g) -v $PWD/config/Config{i}.toml:/app/config/Config.toml:ro ilnp_node_image {log_file}'"
+        ]
+        result = subprocess.run(command, capture_output=True, text=True)
+        print(f"**************************************** {node_name} ****************************************")
+        print("STDOUT: " + result.stdout)
+        print("STDERR: " + result.stderr)
+        print(f"CONNECT {node_name}: ssh -t {hosts[i]} \"tmux attach-session -t ilnp{node_name}\"")
+        print("**********************************************************************************************")
+        
+
+def main():
+
+    # check for tests or host file
+    handle_arguments()
+
+    # build image
+    build_podman_image()
+
+    # deploy nodes
+    deploy_nodes()
+
+if __name__ == "__main__":
+    main()

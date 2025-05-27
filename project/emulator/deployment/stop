@@ -1,0 +1,119 @@
+#!/usr/bin/python
+
+import time
+import subprocess
+import sys
+import yaml
+import socket
+
+hosts = []
+
+def help():
+    print("HELP:  deployment/stop --help")
+    print("USAGE: deployment/stop")
+    print("   -f <host file> (e.g. hosts.txt containing 'pc7-013-l')")
+
+def handle_arguments():
+    global mode
+    global hosts
+
+    if len(sys.argv) == 1:
+        return
+    
+    if sys.argv[1] == "--help":
+        help()
+        exit(0)
+    
+    if len(sys.argv) % 2 != 1:
+        help()
+        exit(1)
+
+    for i in range(1, len(sys.argv), 2):
+        if sys.argv[i] == "-f":
+            with open(sys.argv[i+1], "r") as file:
+                for line in file.readlines():
+                    hosts.append(line.strip())
+
+        else:
+            help()
+            exit(1)
+
+def get_nodes():
+    # open topology
+    with open("deployment/topology.yaml", "r") as file:
+        config = yaml.safe_load(file)
+
+    # get nodes
+    nodes = {}
+    nb_routers = config.get("routers", 0)
+    nb_nodes = config.get("nodes", 0)
+
+    for i in range(1, nb_routers+1):
+        nodes[f"router{i}"] = {
+            "router": True,
+            "networks": []
+        }
+
+    for i in range(1, nb_nodes+1):
+        nodes[f"node{i}"] = {
+            "router": False,
+            "networks": []
+        }
+
+    return nodes
+
+
+def find_hosts(nb_hosts_required):
+    global hosts
+    
+    if len(hosts) == 0:
+        current_host = socket.gethostname()
+        hosts = [current_host] * (nb_hosts_required+1)
+    
+    if len(hosts) != (nb_hosts_required+1):
+        print(f"wrong amount of hosts: {len(hosts)}/{nb_hosts_required}")
+        exit(1)
+
+    # check hosts can be reached
+    for host in hosts:
+        find_pc_command = ["ping", "-c", "1", host]
+        result = subprocess.run(find_pc_command, capture_output=True, text=True)
+        if result.returncode != 0:
+            print(f"host {host} could not be reached")
+            exit(1)
+
+
+if __name__ == "__main__":
+    handle_arguments()
+    nodes = get_nodes()
+    find_hosts(len(nodes))
+
+    podman_kill = "podman stop --all; podman rm --all;"
+    if all(host == hosts[0] for host in hosts):
+        podman_kill = ""
+
+    # kill nodes
+    for i, (node_name, node) in enumerate(nodes.items(), start=1):
+        command = [
+            "ssh", hosts[i], 
+            "tmux send-keys -t ilnp{} C-c; tmux send-keys -t ilnp{} Enter; {}".format(node_name, node_name, podman_kill)
+        ]
+        result = subprocess.run(command, capture_output=True, text=True)
+        print("****************************************************************")
+        print(result.stdout)
+        print(result.stderr)
+        print("****************************************************************")
+
+    # give time for shutdown logs to be sent
+    time.sleep(10)
+
+    # kill logger
+    command = [
+        "ssh", hosts[0], 
+        "tmux send-keys -t ilnplogger C-c; tmux send-keys -t ilnplogger Enter; podman stop --all; podman rm --all;"
+    ]
+    result = subprocess.run(command, capture_output=True, text=True)
+    print("****************************************************************")
+    print(result.stdout)
+    print(result.stderr)
+    print("****************************************************************")
